@@ -1,0 +1,42 @@
+{ 
+
+  "Success": [
+		
+           {
+        "DS_Name":"Office_Main",    
+        "Location_file":"Taboffice_main_tab.txt",
+        "Message": "",
+        "StepsCount": "",
+         "Columns": "11 cols",
+        "Rows": "154 rows",
+        "Last_modified":"second"
+        },
+
+{
+        "DS_Name":"Office_Main",    
+        "Location_file":"ZIPoffice_main.zip",
+        "Message": "",
+        "StepsCount": "",
+         "Columns": "11 cols",
+        "Rows": "154 rows",
+        "Last_modified":"second"
+        },{
+        "DS_Name":"Office_Main",    
+        "Location_file":"Xlsxoffice_main.xlsx",
+        "Message": "",
+        "StepsCount": "",
+         "Columns": "11 cols",
+        "Rows": "154 rows",
+        "Last_modified":"second"
+        },
+{
+        "DS_Name":"MultiplesheetStudentfile",    
+        "Location_file":"student.XLS",
+        "Message": "",
+        "StepsCount": "",
+         "Columns": "7 cols",
+        "Rows": "4 rows",
+        "Last_modified":"second"
+        }       
+ ]
+}

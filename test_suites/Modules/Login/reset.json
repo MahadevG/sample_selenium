@@ -1,0 +1,36 @@
+{
+"Driver":"Firefox Driver",
+
+"Positive_Cases": [
+		{     "Test_Id":"1",
+                      "Test_Name":"Login_Successful_Reset_password",
+                      "changed_passwd":"mammoth12345",
+                       "error_message":""
+ 
+			      },
+{                     "Test_Id":"2",
+                      "Test_Name":"Reset_password_Wrong",
+                      "changed_passwd":"mammoth",
+                      "error_message":"should have at least an alphabet and a number\nShould be more than 8 characters long"
+                      
+                      
+ 
+			      }
+
+  ],
+
+ "Negative_cases":[  
+		{     "Test_Id":"3", "Test_Name":"Login_Failure_Invalid_EMail",
+		      "username":"rashmi",
+ 		     "error_message":"Email address is incorrectly formatted"
+				}
+
+		,{    
+                         "Test_Id":"4",
+			"Test_Name":"Login_Failure_Empty_email",
+			"username":"",
+ 		        "error_message":"Please specify your email address"
+				}
+		
+   ]
+}

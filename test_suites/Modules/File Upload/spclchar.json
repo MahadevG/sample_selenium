@@ -1,0 +1,25 @@
+{
+
+  "File": [
+		
+		{
+
+        
+        "DS_Name":"special chars",    
+        "Location_file":"special_chars.xls",
+        "Columns": "7 cols",
+        "Rows": "5 rows",
+        "Last_modified":"a few seconds ago"
+       
+          
+        }
+ 
+],
+  "columncustomer":[  {
+          "First_spclchar_Value" :"sita)" ,
+           "Second_spclchar_Value" :"mita!?",
+            "Third_spclchar_Value":"rita\"\""
+                   
+   }     
+ ]
+}

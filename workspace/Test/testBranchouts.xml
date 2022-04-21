@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="10">
+	<listeners>
+		<listener class-name="testmammoth.RetryListener" />
+		<listener class-name="testmammoth.TestListener" />
+	</listeners>
+	<test name="Schema update -Date to text delete branch out to ds ">
+		<classes>
+			<class
+				name="testmammoth.branchOutToDS.DateToTextDeleteBranchedDS" />
+		</classes>
+	</test>
+	<test
+		name="Schema update -Date to text conversion-resolve branch out to ds ">
+		<classes>
+			<class
+				name="testmammoth.branchOutToDS.DateToTextResolveBranchedDS" />
+		</classes>
+	</test>
+	<test
+		name="Schema update -delete label rule delete branch out to ds ">
+		<classes>
+			<class
+				name="testmammoth.branchOutToDS.DeleteLabelRuleDeleteBranchedDS" />
+		</classes>
+	</test>
+	<test
+		name="Schema update -Numeric to text-delete branch out to ds ">
+		<classes>
+			<class
+				name="testmammoth.branchOutToDS.NumToTextDeleteBranchedDS" />
+		</classes>
+	</test>
+	<test
+		name="Schema update -Text to Numeric-Resolve/delete branch out to ds ">
+		<classes>
+			<class
+				name="testmammoth.branchOutToDS.TextToNumericResolveDeleteBranchedDS" />
+		</classes>
+	</test>
+
+</suite> 

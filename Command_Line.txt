@@ -1,0 +1,21 @@
+I) Download required JAR files - 
+1. Download latest version of "Selenium Standalone Server" from  http://www.seleniumhq.org/download/ and 
+2. Download "Selenium Client & WebDriver Language Bindings" for Java from same link  above. 
+3. For Json jar file (java-json.jar) - Go to http://www.java2s.com/Code/Jar/j/Downloadjavajsonjar.htm and download 
+4. For json-simple-1.1.1.jar - Go to http://www.java2s.com/Code/Jar/j/Downloadjsonsimple11jar.htm and download 
+5. For PhantomJS jar file -  http://mvnrepository.com/artifact/com.github.detro.ghostdriver/phantomjsdriver/1.1.0
+6. For latest TestNG jar file -  http://mvnrepository.com/artifact/org.testng/testng (I had installed version 6.9.9 from  http://mvnrepository.com/artifact/org.testng/testng/6.9.9)
+
+II) Copy required files to the location
+1.  Copy testng-*.jar to C:\selenium-java-2.50.0\ on destination machine.
+2. Copy phantomjsdriver*.jar to C:\selenium-java-2.50.0\ on destination machine.
+3. Copy java-json.jar to C:\selenium-java-2.50.0\selenium-2.50.0
+4. Copy json-simple-1.1.1.jar to C:\selenium-java-2.50.0\selenium-2.50.0
+5. Copy https://github.com/EdgeMetric/ui_tests/blob/master/First_Module.java to the destination machine
+6. Copy https://github.com/EdgeMetric/ui_tests/blob/master/testng.xml to the destination machine
+
+III) Set ProjectPath and Classpath and run
+
+1. set ProjectPath=c:\Users\rashmi\workspace\TestApp (Change path as per your location)
+2. set classpath=%ProjectPath%\bin;%ProjectPath%\lib\*;C:\selenium-java-2.50.0\selenium-2.50.0\* (Make sure bin and lib directories are present)
+3. java org.testng.TestNG %ProjectPath%\bin\TestNGApp\testng.xml

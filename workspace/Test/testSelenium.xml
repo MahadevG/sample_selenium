@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="10">
+	<listeners>
+		<listener
+			class-name="testmammoth.Listeners.AnnotationTransformer" />
+		<listener class-name="testmammoth.Listeners.Listener" />
+	</listeners>
+	<test name="testing file upload remove duplicate rule ">
+		<classes>
+			<class name="testmammoth.SanitySuite.RemoveDuplicate_Sanity" />
+		</classes>
+	</test>
+	<test name="Sanity Filter numeric col test">
+		<classes>
+			<class name="testmammoth.SanitySuite.ApplyFilter_Sanity" />
+		</classes>
+	</test>
+	<test name="Insert custom value New text column with OR condition">
+		<classes>
+			<class
+				name="testmammoth.SanitySuite.InsertCustomValInNewText_Sanity" />
+		</classes>
+	</test>
+	<test name="Combine  two Column with delimiter">
+		<classes>
+			<class name="testmammoth.SanitySuite.CombineColumn_Sanity" />
+		</classes>
+	</test>
+	<test name="Perform Extract String rule on numeric column">
+		<classes>
+			<class name="testmammoth.SanitySuite.ExtractString_Sanity" />
+		</classes>
+	</test>
+	<test name="Perform Extract Date test on date column">
+		<classes>
+			<class name="testmammoth.SanitySuite.ExtractDate_Sanity" />
+		</classes>
+	</test>
+	<test name="Perform Subtract Date values test on date column">
+		<classes>
+			<class name="testmammoth.SanitySuite.SubtractDateValues_Sanity" />
+		</classes>
+	</test>
+	<test name="Perform math rule on numeric column">
+		<classes>
+			<class name="testmammoth.SanitySuite.MathRule_Sanity" />
+		</classes>
+	</test>
+	<test name="Perform top bottom rule on dataset">
+		<classes>
+			<class name="testmammoth.SanitySuite.TopBottom_Sanity" />
+		</classes>
+	</test>
+	<test name="Perform running total rule on numeric colmumn">
+		<classes>
+			<class name="testmammoth.SanitySuite.RunningTotal_Sanity" />
+		</classes>
+	</test>
+	<test name="Perform add column rule on dataset">
+		<classes>
+			<class name="testmammoth.SanitySuite.AddColumn_Sanity" />
+		</classes>
+	</test>
+	<test name="Perform delete column rule on dataset">
+		<classes>
+			<class name="testmammoth.SanitySuite.DeleteColumn_Sanity" />
+		</classes>
+	</test>
+	<test name="Perform copy column rule on dataset">
+		<classes>
+			<class name="testmammoth.SanitySuite.CopyColumn_Sanity" />
+		</classes>
+	</test>
+	<test name="Perform split column rule on dataset">
+		<classes>
+			<class name="testmammoth.SanitySuite.SplitColumn_Sanity" />
+		</classes>
+	</test>
+	<test name="Perform convert column rule on dataset">
+		<classes>
+			<class name="testmammoth.SanitySuite.ConvertColumn_Sanity" />
+		</classes>
+	</test>
+	<test name="Perform get small or large rule on dataset">
+		<classes>
+			<class name="testmammoth.SanitySuite.GetSmallOrLarge_Sanity" />
+		</classes>
+	</test>
+	<test name="Perform transform text rule on dataset">
+		<classes>
+			<class name="testmammoth.SanitySuite.TransformText_Sanity" />
+		</classes>
+	</test>
+	<test name="Perform find and replace rule">
+		<classes>
+			<class name="testmammoth.SanitySuite.FindAndReplace_Sanity" />
+		</classes>
+	</test>
+	<!-- <test name="Perform extract from json rule"> <classes> <class name="testmammoth.SanitySuite.ExtractFromJson_Sanity" 
+		/> </classes> </test> -->
+	<test name="Perform date difference rule">
+		<classes>
+			<class name="testmammoth.SanitySuite.DateDifference_Sanity" />
+		</classes>
+	</test>
+	<test name="Perform reshape data">
+		<classes>
+			<class name="testmammoth.SanitySuite.ReshapeData_Sanity" />
+		</classes>
+	</test>
+	<test name="Perform group pivot data">
+		<classes>
+			<class name="testmammoth.SanitySuite.GroupPivot_Sanity" />
+		</classes>
+	</test>
+
+	<test name="Perform save as ds sanity">
+		<classes>
+			<class name="testmammoth.SanitySuite.SaveAsDS_Sanity" />
+		</classes>
+	</test>
+	<test name="Perform pivot table rule">
+		<classes>
+			<class name="testmammoth.SanitySuite.PivotTable_Sanity" />
+		</classes>
+	</test>
+<!-- 	<test
+		name="Add Duplicate view  with rules,explore card and metric">
+		<classes>
+			<class
+				name="testmammoth.SanitySuite.DuplicateViewWithMetricRuleCardsAndResetView" />
+		</classes>
+	</test>  -->
+	<test name="Upload data using url and group replace test">
+		<classes>
+			<class
+				name="testmammoth.SanitySuite.UploadViaURL_And_GroupReplace_Sanity" />
+		</classes>
+	</test>
+	<!--<test name="Ds preview section and account switching test"> <classes> 
+		<class name="testmammoth.SanitySuite.DSPreviewSectionAndAccountSwitch_Sanity" 
+		/> </classes> </test> -->
+	<!-- <test name="Perform Add Data function with similar schema file">
+		<classes>
+			<class name="testmammoth.SanitySuite.AddDataSimilar_Sanity" />
+		</classes>
+	</test> -->
+	 <!-- <test
+		name="Perform Combine data operation with similar schema file">
+		<classes>
+			<class
+				name="testmammoth.SanitySuite.Combine_SimilarSchema_Sanity" />
+		</classes>
+	</test>  -->
+	<test name="Perform lookup rule">
+		<classes>
+			<class name="testmammoth.SanitySuite.Lookup_sanity" />
+		</classes>
+	</test>
+	<test name="Perform join rule">
+		<classes>
+			<class name="testmammoth.SanitySuite.JoinDataset_Sanity" />
+		</classes>
+	</test>
+	<test name="Add metric with condition">
+		<classes>
+			<class name="testmammoth.SanitySuite.AddMetric_Sanity" />
+		</classes>
+	</test>
+	<test name=" Quick export download as csv">
+		<classes>
+			<class
+				name="testmammoth.SanitySuite.QuickExportDownloadCSV_Sanity" />
+		</classes>
+	</test>
+	<test name=" Quick export send mail">
+		<classes>
+			<class
+				name="testmammoth.SanitySuite.QuickExportSendMail_Sanity" />
+		</classes>
+	</test>
+	<test name=" Quick export save as dataset">
+		<classes>
+			<class
+				name="testmammoth.SanitySuite.QuickExportSaveAsDS_Sanity" />
+		</classes>
+	</test>
+	<test name=" Quick export elasticsearch">
+		<classes>
+			<class
+				name="testmammoth.SanitySuite.QuickExportElasticsearch_Sanity" />
+		</classes>
+	</test>
+	<!-- <test name=" Quick export powerbi"> <classes> <class name="testmammoth.SanitySuite.QuickExportPowerBi_Sanity" 
+		/> </classes> </test> -->
+	<test name=" Quick export postgres">
+		<classes>
+			<class
+				name="testmammoth.SanitySuite.QuickExportPostgres_Sanity" />
+		</classes>
+	</test>
+	<test name=" Quick export mysql">
+		<classes>
+			<class name="testmammoth.SanitySuite.QuickExportMysql_Sanity" />
+		</classes>
+	</test>
+	<test name=" Add task Export data-mysql">
+		<classes>
+			<class name="testmammoth.SanitySuite.AddTaskExportMySQL_Sanity" />
+		</classes>
+	</test>
+	<test name="Add task Export postgres">
+		<classes>
+			<class
+				name="testmammoth.SanitySuite.AddTaskExportPostgres_Sanity" />
+		</classes>
+	</test>
+	<!-- <test name="Add task Export powerbi"> <classes> <class name="testmammoth.SanitySuite.AddTaskExportPowerBi_Sanity" 
+		/> </classes> </test> -->
+	<test name="Add task Export elasticsearch">
+		<classes>
+			<class
+				name="testmammoth.SanitySuite.AddTaskExportElasticSearch_Sanity" />
+		</classes>
+	</test>
+
+	<test name="test folders">
+		<classes>
+			<class name="testmammoth.SanitySuite.FolderTest_Sanity" />
+		</classes>
+	</test>
+	<test name="documentation tips hints guided tour test">
+		<classes>
+			<class
+				name="testmammoth.SanitySuite.DocumentationTipsHintTour_Sanity" />
+		</classes>
+	</test>
+	<!-- <test name="webhook test"> <classes> <class name="testmammoth.SanitySuite.Webhook_Sanity" 
+		/> </classes> </test> -->
+	<test name="column edit and sort">
+		<classes>
+			<class
+				name="testmammoth.SanitySuite.ColumnEditAndSortByTest_Sanity" />
+		</classes>
+	</test>
+	<test name="explore card -create filter and add it to pipeline">
+		<classes>
+			<class
+				name="testmammoth.SanitySuite.ExploreCardFilterIntoTask_Sanity" />
+		</classes>
+	</test>
+<!--	<test name="Sample mode test for small file">
+		<classes>
+			<class name="testmammoth.SanitySuite.SampleMode" />
+		</classes>
+	</test> -->
+<!-- <test
+		name="Schema update -change type and name of multiple column in branch out to ds ">
+		<classes>
+			<class
+				name="testmammoth.SanitySuite.SchemaChangeTypeAndnameOFMultipleColInSavedDS" />
+		</classes>
+	</test> -->
+	<!--  <test
+		name="Template -test template with and without steps in pipeline and live link functionality ">
+		<classes>
+			<class name="testmammoth.SanitySuite.Template_LiveLink_Sanity" />
+		</classes>
+	</test> -->
+	<test
+		name="Apply filter- column  value comparison using in between condition ">
+		<classes>
+			<class
+				name="testmammoth.SanitySuite.Apply_Filter_Col_Comparison" />
+		</classes>
+	</test>
+	<test
+		name="Grid menu- Perform operations by selecting multiple text columns ">
+		<classes>
+			<class name="testmammoth.SanitySuite.GridWork_Sanity" />
+		</classes>
+	</test>
+	<test name="Delete View and a Dataset together">
+		<classes>
+			<class name="testmammoth.SanitySuite.DeleteViewAndDS_Sanity" />
+		</classes>
+	</test>
+</suite> 

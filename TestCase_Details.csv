@@ -1,0 +1,11 @@
+Product Section,Total Test Cases,Test Cases for Chrome,Test Cases for Firefox,Test Cases for Safari,Test Cases for Phantomjs
+Login,18,12,12,0,6
+File Upload,27,27,27,0,0
+Account landing,100,98,98,0,0
+Data view,570,570,570,0,0
+Action dataview,6,,,,
+Sample mode-dataview,11,,,,
+Total,732,,,,
+,,,,,
+,,,,,
+Sanity Test,21,,,,

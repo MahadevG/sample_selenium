@@ -1,0 +1,35 @@
+format_version: 10
+pipelines:
+  run_sanity:
+    group: FeatureServerSeleniumTests
+    label_template: ${COUNT}
+    lock_behavior: none
+    display_order: -1
+    materials:
+      ui_tests:
+        git: git@github.com:EdgeMetric/ui_tests.git
+        shallow_clone: false
+        auto_update: true
+        branch: gocd_code
+        destination: ui_tests
+    stages:
+    - run_tests:
+        fetch_materials: true
+        keep_artifacts: false
+        clean_workspace: false
+        approval:
+          type: success
+          allow_only_on_success: false
+        jobs:
+          run_ui_tests:
+            timeout: 0
+            environment_variables:
+              MAMMOTH_BROWSER: '2'
+              MAMMOTH_USERNAME: seleniumteststwo@mammoth.io
+              SERVER_PREFIX: develop
+            secure_variables:
+              MAMMOTH_PASSWORD: AES:91w/MU7b777/NDLiveDFjQ==:ZaMcRBe2j2jvQe8k/Vz3GQ==
+            tasks:
+            - exec:
+                command: setenv_and_run_sanity.bat
+                run_if: passed

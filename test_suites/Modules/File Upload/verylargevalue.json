@@ -1,0 +1,30 @@
+{
+  "Driver":"Firefox Driver",
+
+  "Filedetails": [
+		
+		{
+
+        
+        "DS_Name":"special chars",    
+        "Location_file":"office_main_LargeValues.csv",
+        "Columns": "11 cols",
+        "Rows": "10 rows",
+        "Last_modified":"a few seconds ago"
+       
+          
+        }
+ 
+],
+  "verylargevalues":[  {
+          "First_large_Value" :"100000" ,
+           "Second_large_Value" :"50000000",
+           "Third_large_Value" :"2343434",
+           "Fourth_large_Value" :"7898676676",
+           "Fifth_large_Value" :"4589900000000"
+         
+           
+                   
+   }     
+ ]
+}

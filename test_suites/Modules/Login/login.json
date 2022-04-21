@@ -1,0 +1,55 @@
+{
+  "Driver":"PhantomJS Driver",
+
+  "Positive_Cases": [
+		
+		{             "Test_Id":"1",
+                              "Test_Name":"Login_Successful_User",
+                              "test_enabled":"1",
+			      "username":"priya@mammoth.io",
+			      "password":"mammoth123"
+			     }
+  ],
+
+
+    "Negative_cases":[  
+		{               "Test_Id":"2",
+				"Test_Name":"Login_Failure_EmptyPwd",
+				"test_enabled":"1",
+				"username":"rashmi",
+				"password":"123456M",
+ 				"error_message":"Invalid email address"
+				}
+
+		,{               "Test_Id":"3",
+				"Test_Name":"Login_Failure_WrongUser_WrongPwd",
+                                "test_enabled":"1",
+				"username":"priya1@epsinfotech.com",
+				"password":"123456",
+ 				"error_message":"The email and password combination you've entered is incorrect"
+				}
+		, {            "Test_Id":"4",				
+                               "Test_Name":"Login_Failure_EmptyUser_EmptyPwd",
+                                "test_enabled":"1",
+				"username":"",
+				"password":"",
+ 				"error_message":"Invalid email address/Password cannot be empty."
+				}
+
+		,{              "Test_Id":"5",
+				"Test_Name":"Login_Failure_EmptyUser",
+                                "test_enabled":"1",
+				"username":"",
+				"password":"eps123456",
+ 				"error_message":"Invalid email address"
+				}
+
+		,{              "Test_Id":"6",
+				"Test_Name":"Login_Failure_EmptyPass",
+                                "test_enabled":"1",
+				"username":"priya@mammoth1233.io",
+				"password":"",
+ 				"error_message":"Password cannot be empty."
+				}
+   ]
+}

@@ -1,0 +1,90 @@
+{ 
+
+  "Success": [
+		
+		{
+
+        
+        "DS_Name":"Office_Main",    
+        "Location_file":"Csvoffice_main.csv",
+        "Message": "",
+        "StepsCount": "",
+        "Columns": "11 cols",
+        "Rows": "154 rows",
+        "Last_modified":"second"
+        },
+           {
+        "DS_Name":"Office_Main",    
+        "Location_file":"Taboffice_main_tab.txt",
+        "Message": "",
+        "StepsCount": "",
+         "Columns": "11 cols",
+        "Rows": "154 rows",
+        "Last_modified":"second"
+        },
+{
+        "DS_Name":"Office_Main",    
+        "Location_file":"Xlsoffice_main.xls",
+        "Message": "",
+        "StepsCount": "",
+         "Columns": "11 cols",
+        "Rows": "154 rows",
+        "Last_modified":"second"
+        },
+{
+        "DS_Name":"Office_Main",    
+        "Location_file":"ZIPoffice_main.zip",
+        "Message": "",
+        "StepsCount": "",
+         "Columns": "11 cols",
+        "Rows": "154 rows",
+        "Last_modified":"second"
+        },{
+        "DS_Name":"Office_Main",    
+        "Location_file":"Xlsxoffice_main.xlsx",
+        "Message": "",
+        "StepsCount": "",
+         "Columns": "11 cols",
+        "Rows": "154 rows",
+        "Last_modified":"second"
+        },
+{
+        "DS_Name":"Office_Main",    
+        "Location_file":"TXToffice_main.txt",
+        "Message": "",
+        "StepsCount": "",
+         "Columns": "11 cols",
+        "Rows": "154 rows",
+        "Last_modified":"second"
+        },
+{
+        "DS_Name":"Office_Main",    
+        "Location_file":"TSVoffice_main.tsv",
+        "Message": "",
+        "StepsCount": "",
+         "Columns": "11 cols",
+        "Rows": "154 rows",
+        "Last_modified":"second"
+        },
+{
+        "DS_Name":"MultiplesheetStudentfile",    
+        "Location_file":"student.XLS",
+        "Message": "",
+        "StepsCount": "",
+         "Columns": "7 cols",
+        "Rows": "4 rows",
+        "Last_modified":"second"
+        },
+{
+        "DS_Name":"OnlyColnameFile",    
+        "Location_file":"Cust1_with_only_column_names.xls",
+        "Message": "Need input to continue processing",
+        "StepsCount": "",
+         "Columns": "",
+        "Rows": "",
+        "Last_modified":""
+        }
+
+        
+ ]
+}

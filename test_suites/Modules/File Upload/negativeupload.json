@@ -1,0 +1,26 @@
+{
+  "Driver":"Firefox Driver",
+
+  "Filedetails": [
+		
+		{
+
+        
+        "DS_Name":"Negative values",    
+        "Location_file":"office_main_negativevalues.csv",
+        "Columns": "10 cols",
+        "Rows": "9 rows",
+        "Last_modified":"a few seconds ago"
+       
+          
+        }
+ 
+],
+  "Negativevaluescol":[  {
+          "First_negative_Value" :"-1" ,
+           "Second_negative_Value" :"-63"
+                       
+                   
+   }     
+ ]
+}

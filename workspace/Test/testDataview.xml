@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="10">
+<listeners>
+	<listener class-name="testmammoth.RetryListener" />
+	<listener class-name="testmammoth.TestListener" />
+	</listeners>
+	<test name="Initializing driver test">
+		<classes>
+			<class name="testmammoth.SetUp.DriverInitialize" />
+		</classes>
+	</test>
+	<test name="Date format test and ux test in column menu">
+		<classes>
+			<class name="testmammoth.Dataview.ColumnMenuAndDateFormat" />
+		</classes>
+	</test>
+	<test name="numeric column sorting test">
+		<classes>
+			<class name="testmammoth.Dataview.ColumnMenuNumericColumnSorting" />
+		</classes>
+	</test>
+	<test name="date column sorting test">
+		<classes>
+			<class name="testmammoth.Dataview.DateColumnSortingFromFooter" />
+		</classes>
+	</test>
+	
+	<test name="numeric column fomrat test">
+		<classes>
+			<class name="testmammoth.Dataview.ColumnMenuNumericFormat" />
+		</classes>
+	</test>
+	<test name="Join rule new changes">
+		<classes>
+			<class name="testmammoth.Join.Join_datasets" />
+		</classes>
+	</test>
+	<test name="column browser cases">
+		<classes>
+			<class name="testmammoth.Dataview.ColumnBrowser" />
+		</classes>
+	</test>
+</suite> 

@@ -1,0 +1,25 @@
+{
+  "Driver":"Firefox Driver",
+
+  "File": [
+		
+		{
+
+        
+        "DS_Name":"Office_Main_Float",    
+        "Location_file":"office_main_floatvalues.csv",
+        "Columns": "11 cols",
+        "Rows": "7 rows",
+        "Last_modified":"a few seconds ago"
+       
+          
+        }
+ 
+],
+  "Avgpos":[  {
+          "First_Row_Value" :"2.123" ,
+           "second_Row_Value" :"1.5567",
+           "Third_Row_Value" :"2"          
+   }     
+ ]
+}

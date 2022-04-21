@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="10">
+<listeners>
+	<listener class-name="testmammoth.RetryListener" />
+	<listener class-name="testmammoth.TestListener" />
+	</listeners>
+	<test name="Initializing driver test">
+		<classes>
+			<class name="testmammoth.SetUp.DriverInitialize" />
+		</classes>
+	</test>
+	<test name="Schema update -Numeric to text-delete branch out to ds ">
+		<classes>
+			<class name="testmammoth.branchOutToDS.NumToTextDeleteBranchedDS" />
+		</classes>
+	</test>
+	 <test name="Schema update -Text to Numeric-Resolve/delete branch out to ds ">
+		<classes>
+			<class name="testmammoth.branchOutToDS.TextToNumericResolveDeleteBranchedDS" />
+		</classes>
+	</test> 
+	<test name="Schema update -Date to text delete branch out to ds ">
+		<classes>
+			<class name="testmammoth.branchOutToDS.DateToTextDeleteBranchedDS" />
+		</classes>
+	</test>
+	 <test name="Schema update -delete label rule delete branch out to ds ">
+		<classes>
+			<class name="testmammoth.branchOutToDS.DeleteLabelRuleDeleteBranchedDS" />
+		</classes>
+	</test>	
+	 <test name="Schema update -Date to text conversion-resolve branch out to ds ">
+		<classes>
+			<class name="testmammoth.branchOutToDS.DateToTextResolveBranchedDS" />
+		</classes>
+	</test>
+	<test name="Schema update -Date to text for column- fix/delete crosstab">
+		<classes>
+			<class name="testmammoth.CrosstabSchema.DateToTextForColumnResolveDeleteCrosstab" />
+		</classes>
+	</test>
+	 <test name="Schema update -Date to text for rows-Resolve/delete branch out to ds ">
+		<classes>
+			<class name="testmammoth.CrosstabSchema.DateToTextForRowsResolveCrosstab" />
+		</classes>
+	</test> 
+	<test name="Schema update -Numeric to text for rows - delete crosstab ">
+		<classes>
+			<class name="testmammoth.CrosstabSchema.NumToTextForRowsDeleteCrosstab" />
+		</classes>
+	</test>
+	<test name="Schema update -Numeric to text for aggregate column - delete crosstab ">
+		<classes>
+			<class name="testmammoth.CrosstabSchema.NumToTextForAggregateColDeleteCrosstab" />
+		</classes>
+	</test>
+	 <test name="Schema update -delete  a column used in rows and column in corsstab ">
+		<classes>
+			<class name="testmammoth.CrosstabSchema.DeleteColumnUsedInRowsAndColumnCrosstab" />
+		</classes>
+	</test>
+	<test name="Schema update -combination of branchout to ds and crosstab -Fix ">
+		<classes>
+			<class name="testmammoth.CrosstabSchema.CombinedCaseResolveForBranchOutDSCrosstab" />
+		</classes>
+	</test>		
+	
+	
+</suite> 

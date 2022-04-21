@@ -1,0 +1,1742 @@
+{
+  "GlobalElements" :[
+
+                {
+                   "uid":"//input[@placeholder='Email Address']",
+                   "passid":"//input[@placeholder='Password']",
+                   "signbuttonid": "//button/span[.='Log In']",
+                   "logoIcon":"//a[@class='logo text-hide']", 
+                   "cornerSettingMenu":"(//div[@class='dropdown-toggle']/p)[1]",
+                   "logoutButtonId":"//a[text()='Logout']",
+                   "overlayId":"//div[@class='overlay']",
+                   "loaderInFunctionalPanel":"//div[@class='small-inline-loader']/child::i[@class='fa fa-spinner fa-pulse']",
+				   "browserResolutionTitle":"//h3[@class='title' and text()='Your browser is too small']",
+				   "browserResolutionSubTitle":"//p[@class='subtitle' and text()='Your browser should be at least 1200 x 600 pixels to view this page.']"
+				   
+                 }
+],
+  "AccountLanding": [
+		
+		{
+       
+                      
+        "addNewButtonId" :"//div[@id='add-data-button']",
+		"uploadDataset":" //div[contains(@class,'add-data-dropdown')]/div[text()='My Desktop']",
+        "addNewFileId"   :"//a[@class='by-file']",   
+        "fileUploadButtonId":"//input[contains(@class,'fileSelectHiddenInput')]",
+        "inputBoxForURLUpload":"//div[contains(@class,'add-by-url')]//p/input[@type='text']",
+		"samplefileSection":"//div[@class='sample-files']",
+		"sampleFileList":"//div[@class='sample-files']//ul[@class='data-sources']/li",
+        "doneButtonOnURLUpload":"//input[@value='NEXT']",
+        "dsHighlightAccountLnading":"//div[@class='ds-title ready selected']",
+		"firstItemOnlandingHighlight":"//div[contains(@class,'first-landing-item highlight')]",
+        "newViewId":"//a[contains(@class,'add-view')]",
+		"view2OnDataview":"(//ul[contains(@class,'views')]//p[@class='ng-binding'])[2]",
+        "endFileId":"//span[contains(.,'Csvoffice_Main')]",
+        "lastModUPArrow": "//a[contains(@class,'active reverse')]",
+        "nameIdOnTop": "//a[text()='Name']",
+        "studentFileId":"//span[contains(.,'Student')]",
+        "tsvFileId":"//h5//span[contains(.,'TSVoffice_main')]",
+        "addNonsimilarDataFile" :"//span[contains(.,'Add_Data_Test')]", 
+        "negativeValueFile":"//span[contains(.,'Office_Main_Negativevalues')]",
+        "veryLargeValueFile":"//span[contains(.,'Office_Main_Largevalues')]",
+        "negativeFloatFile":"//span[contains(.,'Office_Main_Negativefloatvalues')]",
+        "spclCharFile":"//span[contains(.,'Special_Chars')]",
+        "floatValueFile":"//span[contains(.,'Office_Main_Floatvalues')]",
+        "customerFileID":"//span[contains(.,'Customer')]",
+        "xlsFileId":"//span[contains(.,'Xlsoffice_Main')]" ,
+        "siteFileId":"//span[contains(.,'Site')]",
+        "unprocessedFileId":"//span[contains(.,'Stu_User_Input_Required_For_Processing')]",
+        "processedFileId":"//span[contains(.,'Stu_No_User_Input_Required')]",
+		"AFileID":"//span[contains(.,'Afile')]/parent::a/parent::h5/following-sibling::div[2]//child::ul/li/span",
+        "BFileID":"//span[contains(.,'Bfile')]/parent::a/parent::h5/following-sibling::div[2]//child::ul/li/span",
+        "CFileID":"//span[contains(.,'Cfile')]/parent::a/parent::h5/following-sibling::div[2]//child::ul/li/span",
+        "DFileID":"//span[contains(.,'Dfile')]",
+		"txtOfficeFileId":"//h5//span[contains(.,'TXToffice_main')]",
+        "c10r1000FileID":"//span[contains(.,'C_10_R_1000File')]",
+        "c10r100000FileID":"//span[contains(.,'C_10_R_100000')]",
+		"unicodeCharFile":"//h5//span[contains(.,'Unicodecharfile')]",
+        "previewId":"//div[@class='section-header']/h4[text()='Preview']",
+        "viewsId":"//td//span[contains(text(),'View')]",
+        "viewDSId":"//div[@class='slick-header-columns']",
+		"viewStepName":"//p/span[contains(text(),'steps')]",
+        "currAcName":"//div[@class='account offset dropdown']//p",
+        "usageId":"//h6[contains(.,'Usage')]",
+        "currAcnameInListDisable":"//div[contains(@class,'disabled')]/span",
+        "otherAccountId":"//li[contains(@class,'account-user')]//div[not(contains(@class,'disabled'))]",
+        "firstDSDropdown":"//a[@class='dropdown-toggle']",
+        "viewDropdown":"//p[@class ='view-name']/following-sibling::a[contains(@class,'dropdown-toggle')]",
+         "renameIDInView":"//div[contains(@class,'dropdown open')]//a[text()='Rename']",
+		 "resetInView":"//li/a[text()='Reset']",
+		 "saveAsTemplateInView":"//ul[contains(@class,'dropdown-menu')]//a[contains(text(),'as a template')]",
+		 "applyTemplate":"//li/file-reader-interface[@class ='ng-isolate-scope']/input",
+		 "resolveDependencyTitle":"//h3[@class='modal-title'][text()='Resolve dependencies']",
+        "renameIdInDropdown":"//ul[@class='dropdown-menu']//a[text()='Rename']",
+        "renameDSWindow":"//h5[text()='Rename dataset']",
+        "inputBox":"//input[@placeholder='Enter name']",
+        "renameSuccessButton":"//button[contains(text(),'Done')]",
+        "renameDisableMode":"//div[@class='buttons']/button[@class='btn btn-success btn-wide disabled']", 
+        "renamedDSId":"//span[contains(.,'Renamed')]",
+        "closeIcon": "//button[@class='close']",
+        "cancelButton" :"//div[@class='buttons']//button[@class='ml-btn btn-default']",
+        "cancelIdInDropdown":" //a[text()='Delete']",
+        "createDuplicateInDropdown":"//ul[@class='dropdown-menu']//a[text()='Create duplicate']",
+		"duplicateInViewDropdown":"//ul[contains(@class,'dropdown-menu custom')]//a[text()='Duplicate']",
+		"duplicatedView":"//ul[@class='views']/li//blocktype[contains(text(),'View 2')]",
+        "combineId":"//div[contains(@class,'menu-icons')]//span[contains(@class,'combine')]",
+        "combineWindowTitle":"//h5[@class='modal-title'][text()='Combine with another dataset']",
+        "addDataId":"//span[contains(@class,'add-data')]", 
+         "addMoreDataInList":"//div[contains(@class,'menu-icons combine-options')]/ul/li[1]/a"	,	
+        "deleteOptionInViewDropDown":"//ul[contains(@class,'dropdown-menu')]//a[text()='Delete']",
+        "deleteWinTitle":"//h5[text()='Delete Confirmation']",
+        "deleteWinTitleView":"//h4[text()='Delete Confirmation']",
+        "deleteButtonInWindow":"//div[@class='buttons']/button[contains(@class,'ml-btn ml-btn-danger')]",
+        "deleteMsgInProgress":"//div[contains(@class,'status')]/p",
+         "deleteMsgOnTop":"//div[contains(@class,'toast-notification')]//div[contains(@class,'message')]",   
+        "firstViewId":"//tr//td[@class='view-title']",
+        "viewBoxId":"//div[contains(@class,'ds-views')][1]",
+         "viewNumberOfRows":"//tr//td[@class='view-title']/div[@class='stat-box']/ul/li[2]", 
+        "dropdownBoxId":"//ul[@class='dropdown-menu']",
+        "renamedViewId":"//span[contains(.,'ViewRenamed')]",
+         "allViewId":"//table[@class='table']//tr//a//span",
+        "renameViewWindow":"//h5[text()='Rename view']",
+       "deleteUnderViewDropdown":"//table//tbody//tr[1]//td//ul//li[2]//a[text()='Delete']",
+       "firstBottomMsgOnCombine" :"//h6[contains(.,'1')]",
+       "secondBottomMsgOnCombine"    :"//p[contains(.,'Select dataset')]", 
+        "DSListToCombine" :"//div[contains(@class,'combine-ds')]//div[contains(@class,'styled-select')]/select",        
+       "txtFileRowColDetail":"(//span[contains(.,'TXToffice_main')]/ancestor::div[contains(@class,'ds-title ready')]/descendant::li[contains(@class,'cols')])[1]",
+        "previewSectionInCombine":"//p[@class='prev-hdr']",
+        "previewContentInCombine" :"//div[@class='preview-grid hide-able-content']//div[@class='slick-header ui-state-default']",
+         "saveResultIntoDropdown":"//div[contains(@class,'list-group')]//div[contains(@class,'styled-select')]/select",
+        "SourceFileInColumnConfigure":"//div[@class='pane-hdr clear']/p[1]//strong",
+        "combineWithFileInColumnConfigure":"//div[@class='pane-hdr clear']/p[2]//strong",
+        "configureColMatchingSection":"//div[contains(@class,'step-2')]/h6",
+         "previousButton":"//button[text()='PREVIOUS']",
+         "doneButton":"//input[contains(@class,'ml-btn-success btn-wide')]", 
+         "lastColOfSourceAfterScroll":"//ul[@class='source-cols']//li[last()]",
+       "closeIconOfCombineWindow":"//div[contains(@class,'modal-header theme-dark')]//button[@class='close']",
+        "matchedColumnSection" :"//ul[@class='matching-cols']",
+        "matchedColumnList":"//li[contains(@class,'matched')]",
+         "unMatchedColumn":"//ul[contains(@class,'matching-cols')]/li",
+        "txtDataTypeColumn":"//div[@class='datatype type-text']",
+        "defaultValueInMatchedCol":"//ul/li[1]/div[@class='styled-select matched']/select/child::option[2]",
+        "changedValueInMatchedCol":"(//li/div[@class='styled-select empty']/select)[last()]",
+        "secondColDropdownToDeselect":"//ul/li[2]/div[@class='styled-select matched']/child::select" ,
+        "deselectColumnSection":"//ul[@class='matching-cols']/li[2]",  
+        "selectValueOnDropdown":"//ul//li[1]/div[@class='styled-select empty']/select/child::option[1]",
+        "changedValueInUnmatchedCol":"//ul//li[1]/div[@class='styled-select unmatched']/select",
+        "appendingMessage" :"//p[contains(.,'Appending data')]",
+        "insertingRowsMessage":"//p[contains(.,'Inserting rows:')]",
+        "horizontalScrollElementPreview":"//div[@class='ui-widget-content slick-row odd'][last()]/child::div",
+        "verticalScrollElementPreview":"//div[@class='slick-cell l0 r0']",
+         "batchDelete" :"//i[@class='fa fa-trash-o']",
+        "batchDeleteWindowTitle":"//h5[contains(@class,'modal-title') ]/span[contains(text(),'delete this batch')]",
+        "deleteButtonForBatchInWindow":"//button[contains(@class,'ml-btn ml-btn-danger')]", 
+       "destinationTextId":"//h2/span",  
+       "batchLink" :"//div[contains(@class,'batch-action')]/preceding-sibling::span", 
+	   "batchSection":"//div[contains(@class,'batch-head')]",
+	   "sourceHeadInBatch":"//div[contains(@class,'source-prop')]",
+	   "sourceInfoOnHover":"//div[contains(@class,'bottom source-prop-menu')]",
+	   "addToDSLink":"//div[contains(@class,'data-batch')]",
+	   "batchColumnSection":"//div[contains(@class,'batch-cols')]",
+	   "applyButtonDisabledInBatchCol":"//div[@class='ml-btn ml-btn-success btn-wide disabled']",
+	   "batchColumnCheckBoxes":"//div[contains(@class,'column-list')]//input",
+	   "applyButtonInBatchColumn":"//div[@class='ml-btn ml-btn-success btn-wide confirm']",
+	   "duplicatedDSNameOnLanding":"//h5//span[contains(text(),'copy')]",
+	   "batch_checkbox":"//div[@class='batch-body m-0']//input",
+	   "suspend_batch_button":"//div[contains(@class,'delete-batches') and contains(.,'Suspend')]",
+	   "current_row_count_zero_pending":"(//div[contains(@class,'preview-panel-scroll-container')]//div[@class='block-element']/span)[1]",
+	   "sync_pending_row_count":"(//div[contains(@class,'preview-panel-scroll-container')]//div[contains(.,'Sync')]/span)[1]",
+	   "suspended_row_count":"(//div[contains(@class,'preview-panel-scroll-container')]//div[contains(.,'Suspended')]/span)[1]",
+	   "total_row_count":"(//div[contains(@class,'preview-panel-scroll-container')]//div[contains(.,'Total')]/span)[1]",
+	   
+        "allDSName":"//h5//span",
+        "rowsInPreview":"//div[contains(text(),'Rows:')]/span",
+        "firstRowID":"//div[@class='slick-cell l1 r1']" ,
+       "resolveButton":"//div[@class='section-content']//div[contains(@class,'ml-btn ml-btn-warning btn-sm')]",
+        "resolveWindowTitle":"//h6[@class='modal-title'][text()='Please verify the options below:']",
+        "resolveWinClose":"//div[contains(@class,'modal-header theme-dark')]/child::button[@class='close']",
+      "unprocessedRedDeleteButton":"//div[@class='section-content']//div[contains(@class,'btn btn-danger btn-sm')]",
+        "dateSelectDropdown":"//div[contains(@class,'focus')]/select",
+        "applyButtonId":"//button[contains(@class,'ml-btn ml-btn-success')]",
+        "applyInResolve":"//button[@class='ml-btn ml-btn-success']",
+        "uploadingMsgId":"//div[contains(@class,'loader-upload')]",
+         "checkBoxInResolve":"//input[@id='controlinput']",
+        "colNameInFirstRowSection":"(//div[@class='form-group']/label)[1]",
+        "skipFirstRowSection":"//div/div[2][@class='form-group']//label",
+        "delimiterSection":"//div[@class='form-group'][3]",
+        "delimiterDropDown":"//div[@class='form-group'][3]/select",
+        "optionUnderDelimiter":"//div[@class='form-group'][3]/select/option",
+         "actionNeeded":"//div[@class='section-header']/h4[text()='Action needed']",
+         "previewInResolve":"//div[@class='ui-widget-content slick-row even']",
+        "dsNameinPreview" :"//div[contains(@class,'title-bar')]//div/span[1]", 
+         "propertySection":"//section[@class='properties']",
+		 "viewSection":"//section[@class='views']",
+         "previewSection":"//div[@class='prev-body']//section[contains(@class,'preview')]",
+		 "stepSection":"//ul[contains(@class,'step-list')]/li[1]/span",
+		 "stepDescription":"//div[contains(@class,'step-title')]",
+          "textunderPreview":"//div[@class='section-content']/child::ul[@class='info hide-able-content']",
+          "textunderProperty":"//section[@class='properties']//ul",
+		  "minimizeMaximizeIconInPreview":"//section[contains(@class,'preview ng-scope')]//h4/span",
+          "processedRadioButton" :"//div[2][@class='radio-group']//input[1]",
+         "qTipMsg":"//div[@class='qtip-content']",
+         "qTipMsgDS":"//div[@class='qtip-tip']/following-sibling::div",
+         "fourthColIDLessFile" :"//div[@class='slick-cell l4 r4']",
+          "openButtonSingleView":"//div[contains(@class,'open-wksp-button')]",
+          "openButtonMultiView":"//div[contains(@class,'multi-view')]",
+          "firstViewInOpenButton":"(//li//a[contains(@class,'dropdown-item')])[1]",
+          "deleteIcon":"//span[@class='delete-data']",
+        "sourceDataInPreview":"//div[@class='section-content']/child::ul[@class='info hide-able-content']//div[1][@class='radio-group']/label/span",
+        "processeddataDropDownInPreview":"//div[contains(@class,'preview-dropdown')]/div[1]/div//div[@class='styled-select']/select",
+		"syncDataButtonAccLanding":"//div[contains(@class,'title-bar')]/following-sibling::div/span[@class='sync-now']",
+		"startSyncingMessage":"//div[contains(@class,'section-content')]//ul//li[5]//span",
+		"pauseSyncing":"//div[contains(@class,'section-content')]//ul//li/div/span/following-sibling::a",
+		"cancelUploadInBetween":"//div[contains(@class,'cancel-file') and text()='CANCEL']",
+		"selectedDSListToDelete":"//ul[@class='multi-select']/li",
+		"deleteButtonForMultiDSDelete":"//div[contains(@class,'ml-btn ml-btn-danger')]",
+		"deleteConfirmationModal":"//h5[text()='Delete Confirmation']",
+       "deleteButtonInConfirmationWindow":"//button[text()='DELETE']",
+	    "sheetRowColInPreview":"//div[contains(@class,'sheet')]//span[@class='count-info']",
+		"selectAllSheetToExtract":"//div[@class='helper-links']/span[contains(text(),'Select all')]",
+		"extractAndCombineButton":"//div[contains(text(),' Extract & combine')]",
+		"extractSelected":"//div[@class ='sheets']/following-sibling::div//div[contains(@class,'success')]",
+		"mySQLExportFileID":"//h5//span[contains(.,'Mysqlexportfile')]",
+		"createFolderOnLanding":"//div[contains(@class,'new-folder-btn')]",
+		"newFolderModal":"//h5[text()='New folder']",
+		"enterFolderName":"//input[contains(@placeholder,'New Folder')]",
+		"doneInCreateFolder":"//span[contains(@class,'ml-btn ml-btn-success')]",
+		"getFolderNameOnLanding":"//span[@class='ds-folder']//following-sibling::h5/a",
+		"folderDetailWithName":"//li[contains(@class,'folder-files')]",
+		"goToButton":"//div[contains(@class,'btn-goto')]",
+		"currentlyActiveFolderName":"//li[contains(@class,'active') and contains(@class,'breadcrumb-item')]",
+		"dataLibrary":"//span[contains(@title,'Data Library')]",
+		"MsgWhenNoFolderFile":"//p[@class='no-folder']",
+		"threeDotsMenuForFolder":"//div[contains(@class,'three-dots dropdown')]//a[@class='dropdown-toggle']",
+		"moveTo":"//div[@class='move dropdown']",
+		"foldersUnderMoveTo":"//ul//li[@role='menuitem']",
+		"moveHere":"//div[@class='move-folder-here active']/a",
+		"renameDSByNameInputBox":"//input[contains(@class,'edit-input')]",
+		"rightTickOnRename":"//span[@class='add-name']",
+		"accessMoreHelp":"//div[@class='user-help-icon']",
+		"tipsHints":"//a[contains(text(),'Tips & Hints')]  ",
+		"hintDot":"//div[@class='introjs-hint-pulse']",
+		"hintToolltip":"//div[@class='introjs-tooltiptext']",
+		"clickOutsideOfHints":"//div[contains(@class,'product-hints-overlay')] ",
+		"documentation":"//a[contains(text(),'Documentation')]",
+		"mammothDocPageTitle":"//h1[text()='Mammoth Documentation']",
+		"guidedTour":"//a[contains(text(),'Guided Tour')]",
+		"guidedTourWindow":"//div[@class='mammoth-icon']",
+		"exitTour":"//a[contains(@class,'skip')]",
+		"webhook":"//div[contains(@class,'add-data-dropdown')]/div[text()='Webhooks']",	
+		"enterDsNameInWebhook":"//label[contains(text(),'New Dataset')]/following-sibling::div/input",
+		"selectDSMode":"//label[contains(text(),'Dataset mode')]/following-sibling::div/select",
+		"doneButtonInWebhook":"//input[@class='btn btn-success']",
+		"getUrlTextWebhook":"(//section[contains(@class,'webhook')]//span[contains(@class,'text-success')])[1]",
+		"refreshButtonWebhook":" //div[contains(@class,'btn btn-gray')]",
+		"notificationInBottom":"//div[@class='toast-notification toast-notification-success ui-notification ng-scope clickable']",
+		"openBatchesPanel":"//span[contains(text(),'Batches: 1')]",
+		"activeBatchStatus":"//div[contains(text(),'Active')]",
+		"suspendBatchStatus":"//div[contains(text(),'Suspended')]",
+		"firstBatchCehckbox":"//input[@value='batch.id']",
+		"suspendBatchConformationButton":"//button[@class='ml-btn ml-btn-danger btn-wide ng-binding']",
+		"batchCount":"//span[contains(text(),'Batches: 2')]"
+		
+		
+		
+        }    
+ ],
+
+
+"Login": [
+	
+		{
+
+
+        "eMsgUname" :"//p[@class='err-msg']",
+        "eMsgOnTop":"//p[@class='err-msg err-general']",
+        "eMsgOnPass":".//*[@id='login']/div[2]/p/span"
+       
+       
+       
+        }    
+ ],
+
+"Reset": [
+		
+	{
+         
+          
+
+           "forgotPassLink":"//small[@class='pwd-reset']",
+           "passResetTitle":"//h3[text()='Password reset']",
+           "inputBoxOnReset":"email",
+           "sendButton" :"//button[contains(@class,'btn-reset')][text()='Send']",
+		   "sendButtonDisabled" :"//button[@class='btn btn-warning disabled']",
+           "eMsgOnSubmitFailed":"//p[@class='msg-error text-danger']",
+           "signInLinkForChrome":"//a[text()='Sign In']",
+           "userIdOfGmail":"//input[@type='email']",
+           "nextIdOfGmail" :"//span[text()='Next']",
+            "passIdOfGmail":"//input[@type='password']",
+            "mailLogo":"//img[contains(@src,'mammoth.io/images')]",
+			"goBackArrowInInbox":"//div[@class='T-I J-J5-Ji lS T-I-ax7   mA']",
+			"checkBoxInGmail":"//span[@role='checkbox']",
+			"deleteMailInGmail":"//div[@data-tooltip='Delete']",
+			
+            "signInGmail":"signIn",
+           "recievedMail":"//div[@class = 'y6']/span[contains(.,'Reset your Password')]",
+           "recievedLink" :"//a[contains(@href,'mammoth.io#')]",
+            "gmailCornerSetting":"//a[contains(@aria-label,'Google Account:')]",
+            "gmailLogout":"//a[text()='Sign out']",  
+           "confirmPassword":"//input[@id='userConfirmPwd']",  
+           "signInAfterReset":"//button[contains(@class,'btn btn-success')][text()='Sign In']",
+           "signInAfterResetDisabled" :"//form[@id='change_password']/child::div[@class='form-group no-gutter']/following::button[@title='Sign In']",
+           "wrongPassErrorMsg":"//p[@class='err-msg err-general']",
+            "qtipResetMsg":"//div[@id='qtip-0-content']" 
+        }    
+ ],
+
+"FileUpload": [
+		
+		{    
+                "addByURL":"//li[@class='by-url']",
+                "addByAPI":"//li[@class='by-api']",
+                "addDataTitle":"//h3[@class='modal-title'][text()='Add more data']",
+                "supportedFileMsg":"//section[contains(@class,'add-by-upload')]//div[contains(@class,'drop')]/p",
+                "myDesktopId":"//li[@class='by-file active']",
+                "myDesktopTextID":"//a[contains(.,'My Desktop')]",
+                "stepId":"//li[contains(@class,'steps')]",      
+                "colId":"(//li[contains(@class,'cols')])[1]",
+                "rowsId":"(//li[contains(@class,'cols')])[1]",
+                "lastupdatedId":"(//ul[contains(@class,'meta')])[1]",
+                "onlyHeaderFile":"//span[contains(.,'Cust1_With_Only_Column_Names')]",
+                "msgToProcessHeaderFile":"//p[contains(.,'We need your input')]",
+				"msgForselectSheetToExtract":"//p[contains(.,'Select sheets')]",
+                "cancelUpload":"//button[@class='close']",
+                
+                "impFirstNegativeValue":"//div[@class='slick-cell l8 r8'][text()='-1']",
+                "impSecondNegativeValue" :"//div[@class='slick-cell l8 r8'][text()='-63']",
+                "firstNegativeFloatValue":"//div[@class='slick-cell l8 r8'][text()='-1.78']",
+                "secondNegativeFloatValue":"//div[@class='slick-cell l8 r8'][text()='-63.678']",
+                "thirdNegativeFloatValue":"//div[@class='slick-cell l8 r8'][text()='55.167']",
+                 "avgPosColId" :"//span[@class='slick-column-name'][text()='AvgPos']",
+                 "firstFloatValue":"//div[@class='slick-cell l10 r10'][text()='2.123']",
+                 "secondFloatValue"  :"//div[@class='slick-cell l10 r10'][text()='1.5567']",
+                 "thirdFloatValue":"//div[@class='slick-cell l10 r10'][text()='2']",
+                 "customerColId":"//span[@class='slick-column-name'][text()='Customer name']",
+                 "firstSpclCharValue": "//div[@class='slick-cell l2 r2'][text()='sita)']",
+                 "secondSpclCharValue" :"//div[@class='slick-cell l2 r2'][text()='mita!?']",
+                 "thirdSpclCharValue" :"//div[@class='slick-cell l2 r2'][contains(.,'rita')]",
+                  "firstLargeNumericValue":"//div[@class='slick-cell l8 r8'][text()='100000']",
+                  "secondLargeNumericValue":"//div[@class='slick-cell l8 r8'][text()='50000000']",
+                  "thirdLargeNumericValue":"//div[@class='slick-cell l8 r8'][text()='2343434']",
+                  "fourthLargeNumericValue":"//div[@class='slick-cell l8 r8'][text()='7898676676']",
+                  "fifthLargeNumericValue":"//div[@class='slick-cell l8 r8'][text()='4589900000000']",
+				  "emptyFileErrorMsg":"(//div[contains(@class,'status-wrapper')])[1]//p"
+                 
+
+
+       
+       
+        }    
+ ],
+"DataView":[
+                 {
+                     
+                    "dataViewColumnFile":"//span[contains(.,'Data_View_Column')]",
+                   "campaignName":"//span[contains(@class,'slick-column-name')][text()='CampaignName']",
+                   "CampaighnNameWithDataType":"//span[@class='type-text datatype']//following-sibling::span[text()='CampaignName']",
+                   "dropDownBoxDV":"//div[@class='col-menu-container']//div[@class='col-header-menu']",
+                   "ColMenuListOptions":"//ul[contains(@class,'col-functions__section')]/li/a",
+                   "sortOptionUnderDropDown":"//div[@class='col-menu-container']//div[@class='col-functions']//ul/li[contains(.,'Sort')]",
+				   "impColNameID" :"//span[contains(@class,'slick-column-name')][text()='Imps']",
+                    "dateColumn":"//span[contains(@class,'slick-column-name')][text()='Date']",           
+                     "dateFormat":"//div[@class='format-field field-date']//a[@class='dropdown-toggle']/i",
+                     "dateFormatNameID":"//span[text()='Date Format']" ,
+					 "dateChangeBox":"//div[contains(@class,'date-format-menu')]//div[@class='d-flex']",
+					 "numericFormatNameID":"//div[contains(@class,'formatter-container')]" ,
+                    "universalCol":"//div[@class='d-flex']//h6",
+                     "universalDates":" //div[contains(@class,'dropdown-menu')]/div[@class='d-flex']/div[1]/ul/li",					 
+                     "USColUnderDate":"//div[contains(@class,'date-format-menu')]//select[contains(@class,'input-xs')]",
+                     "defaultSelectedDate":"//a[contains(@class,'selected')][text()='10/21/2016']",
+                     "firstDateInColumn":"(//div[@class='slick-cell l3 r3'])[1]",
+                      "USUKDates":"//div[contains(@class,'date-format-menu')]/div[@class='d-flex']//div[2]//ul/li",
+					  "applyBtnInDateColumnMenuFunctn":"//li[contains(@class,'col-functions')]//span[@class='apply-button']",
+                    "dateDropDownUnderdateCol":"//div[contains(@class,'date-format-menu')]//div[@class='d-flex']//div/select",
+                       "textDataType":"//span[@class='type-text datatype']",
+                       "numericDataType":"//span[@class='type-numeric datatype']",
+                       "impColWithDataType" :"//span[@class='type-numeric datatype']//following-sibling::span[text()='Imps']",
+                        "dateDataType":"//span[@class='type-date datatype']",
+                        "dateColWithDataType":"//span[@class='type-date datatype']//following-sibling::span[text()='Date']",
+                        "numColWithDataType":".//following-sibling::span[text()='Imps']",
+                         "numericDropDown":"//span[text()='Numeric Format']/following-sibling::i[@class='fa fa-angle-down']",
+                          "decimalDropDown":"//color-chars/following-sibling::select",
+                           "commaCheckBox":"//div[@class='decimal_places']/following-sibling::span//*[local-name()='svg']",
+                           "goButton":"//li[contains(@class,'col-functions')]//span[text()='Apply']",
+                          "impColData":"//div[contains(@class,'slick-cell l7 r7')]",
+                          "currencyDropDown":"//ul[contains(@class,'col-functions')]//span[contains(@class,'currency')]/following-sibling::select",
+                          "percentageCheckbox":"//ul[contains(@class,'col-functions')]//div[@class='decimal_places']/following-sibling::span[contains(@class,'percentage')]",
+                       "addElement":"//div[@class='btn btn-primary dropdown-toggle']",
+                       "addtaskButton":"//button[contains(@class,'task-button')]",  
+                       "sortDropdownInCOl":"//li[contains(@class,'col-functions__section-sorting')]/div[contains(@class,'styled-select')]/select",
+                        "view1BackId":"//ul[@class='views']/li[not(contains(@class,'active'))]//div/p",
+                         "OnlyRowInstatus":"//div[contains(@class,'status-bar grid-status-bar')]//ul/li[1]",                        
+                          "elementsToggle":"//li[contains(@class,'toggle-icon active')]",
+						 "showGridAndElementActive":"//label[contains(@class,'show-grid-ele active')]",
+						 "showOnlyElement":"//label[contains(@class,'show-ele')]",
+						 "showOnlyGrid":"//li[@class='data-chart element-panel-toggle-icon']",
+						 "draggerToRightSideOnDataview":"//span[contains(@class,'metric-only-panel')]",
+						 "dropppableAreaOnRightSideDataview":"//div[contains(@class,'filters-none')]",
+                          "ColumnMenuIcon":"./preceding-sibling::div[@title='Menu']",
+                          "impHighlightMode":"//div[contains(@class,'slick-cell l7 r7 menu-highlight')]",
+                           "columnStatOfAnyCol":"//preceding-sibling::div[@title='Explore']",
+                            "dateTitleInStats":"//div[@class='card-title']/span[text()='Date']",
+                             "maxInStats":"//span[@class='title'and text()='Latest:']/following-sibling::span",
+                              "minInStats":"//span[@class='title'and text()='Earliest:']/following-sibling::span",
+                               "avgInStats":"//div[contains(@class,'short-summary')]//span[text()='Average: ']/parent::div",
+                                "sumInStats":"//div[contains(@class,'short-summary')]//span[text()='Sum: ']/parent::div",
+                                "stDevInStats":"//div[contains(@class,'short-summary')]//span[text()='St.Dev: ']/parent::div",
+                              "closeColStats":"//div[@class='close-x']",
+                             "uniqueValueOfDateInStats":"//ul[@class='values prevent-deselect']/li",
+                               "impTitleInStats":"//div[@class='card-title']/span[text()='Imps']",
+                               "clickTitleInStats":"//span[@title='Clicks']",
+				"totalUniqueValText":"//div[contains(@class,'unique-count')]",
+			        "uniqueValuesList":"//div[contains(@class,'explore-card')]//ul[contains(@class,'list')]/li[contains(@class,'item')]",
+				"searchColumnOnTop":"//span[contains(@class,'column-find')]",
+				"findColumn":"//span[@class='column-find']",
+				"jumpToColumn":"//input[contains(@class,'column-jump')]",
+				"cancelInBottomColList":"//span[contains(@class,'option-cancel')]",
+				"renameReorderHideCol":"//span[@class='rename']",
+				"columnListInSearch":"//div[@class='scrollbox col-table']/ul/li[not (contains(@class,'empty'))]",
+				"outsideOfSearchCol":"//div[@class='menubar elements-open']",
+				 "showHideCheckBoxInBottom":"//div[@class='col-table']/ul[1]/li[1]/input[1]",
+				"applyInShowHide":"//button[contains(@class,'ml-btn ml-btn-success')]",
+				"cancelInColumnBrowser":"//span[@class='col-display-btn']/span[contains(@class,'ml-btn ml-btn-transparent')]",
+				"draggableItem1InSearchColList":"//div[contains(@class,'col-table')]/ul/li[1]/div[@class='col-dragger dragger']",
+				"droppableItemInSearchCollist":"//div[contains(@class,'col-table')]/ul/li[2]/div[@class='col-dragger dragger']",
+				"renameEditIcon":"(//span[@class='edit-icon'])[1]",
+				
+				"colListFirstInputBox":"//textarea[contains(@class,'text-column-name')]",
+				"listAfterSearchCol":"//div[@class='col-table search-on']//span[@class='col-display-name']/span",
+				"searchColFileId":"//h5//span[contains(.,'Searchcolumn')]",
+				"inputBoxToSearchColumn":"//input[contains(@class,'column-search')]",
+				"listWhenSearchOnCheckBox":"//div[contains(@class,'search-on')]//input[@type='checkbox']",
+				"listWhenSearchOffCheckBox":"//div[contains(@class,'col-table')]//input[@type='checkbox']",
+				"selectDropDownInSearchCol":"//a[@class='dropdown-toggle']",
+				"textInDropDownSearchCol":"//div[@class='dropdown-menu']//a[text()='Text']",
+				"colNameListOnDataView":"//span[@class='slick-column-name' and not(contains(text(),'#'))]",
+				"numInDropDownSearchCol":"//div[@class='dropdown-menu']//a[text()='Numeric']",
+				"dateInDropDownSearchCol":"//div[@class='dropdown-menu']//a[text()='Date']",
+				"noneInDropDownSearchCol":"//div[@class='dropdown-menu']//a[text()='None']",
+				"checkBoxlistInSearchCol":"//div[contains(@class,'col-table')]/ul/li/input[@type='checkbox']",
+				"colListInputBoxSearchCol":"//input[contains(@class,'column-name')]",
+				"keywordColumnName":"//span[contains(@class,'slick-column-name')][text()='Keyword']",
+				 "filteredValueOnTop":"(//a[@class='pill']/div[contains(@class,'item text')])[1]",
+				 "restFilteredValueInDropdown":"//li[contains(@class,'filters-menu')]/a",
+				 "filteredValueListInDropdownColSummary":"//ul[@class='filters dropdown-menu']/li//div[@class='items']//div[contains(@class,'item')]",
+				 "deleteFilteredValFromDropdownColSummary":"//div[contains(@class,'item')]/div[@class='remove-cross']",
+				 "columnNamesInColBrowser":"//div[contains(@class,'col-names')]/span[@class='col-display-name']",
+				 "clickOutsideOfColBrowser":"(//div[contains(@class,'slick-cell l6 r6')])[3]",
+				 "columnBrowserInDraftMode":"//span[@class='column-find changes-pending']",
+				 "hideOptionWithColnameInColBrowser":"(//span[@class='hide-icon'])",
+				 "renamedColumnName":"//span[contains(@class,'slick-column-name')][text()='RenamedVal']",
+				 "columnSelectedMessageInColBrowser":"//span[contains(@class,'column-changes')]",
+				 "hideOptionInRightSideMenuColBrowser":"//li[contains(@class,'hide-column')][text()='Hide']",
+				 "monthColumnName":"//span[contains(@class,'slick-column-name')][text()='Month']",
+				 "showOptionInRightSideMenuColBrowser":"//li[contains(@class,'show-column')][text()='Show']",
+				 "removeOptionInRightSideMenuColBrowser":"//li[contains(@class,'remove-column')][text()='Remove']",
+				 "findReplaceInColBrowser":"//li[@class='list-item find-replace']",
+				 "findReplaceInColBrowserDisableMode":"//li[contains(@class,'find-replace disabled')]",
+				
+				"originalDSIcon" :"//li[@class='original-ds']",
+				"viewOriginalDS":"//div[contains(@class,'original-ds')]",
+				"openedDSGridFromStep":"//div[@class='previous-grid-container']",
+				"randomGeneratedDataFileID":"//h5//span[contains(text(),'RandomGeneratedData')]",
+				"sampleModeState":"//span[contains(@class,'preview-state') and (not (contains(@class,'hide')))]",
+
+
+				"previewModeTitle":"//h3[contains(.,'Preview Mode')]",
+				"sampleModeSlider":"//span[@class='slider round']	",
+				"exitPreviewModeOk":"//button[@class='btn btn-sm btn-default'][text()='Ok']",
+				"dotsToOpenWorkSpaceMenuBar":"(//*[local-name() = 'svg'])[1]",
+				"resetViewTitle":"//h5[text()='Reset View']",
+				"resetButton":"//button[text()='Reset']",
+				"sampleModeStateView2":"//div[contains(@class,'tray-dataview')and not(contains(@class,'hide'))]//span[contains(@class,'preview-state') and (not (contains(@class,'hide')))]",
+		"detailedFiletransactionID":"//h5//span[contains(.,'20150101_20150215_Detailed_Transactions')]",
+				"timeColName":"//span[@class='slick-column-name' and text()='Time']",
+				"exploreToggleON":"//label[contains(@class,'tog-on')]",
+				"exploreToggleOFF":"//label[contains(@class,'tog-off')]",
+                "dataSetting":"//section[contains(@class,'properties')]//a[text()='edit']",
+                "dataSettingTooltip":"//div[contains(@class,'right fade in')]",
+               "dateFormatInDataSettingModel":"//div[contains(@class,'form-group')][4]/select",
+			"hoverMessageInElementPanel":"//div[contains(@class,'tooltip-inner')]",
+			"syncDataButtonDataView":"//div[@class='btn'][contains(text(),'Sync data')]",
+			"taskPanel":"//div[contains(@class,'steps-exist')]",
+			"taskPanelForAction":"//div[contains(@class,'toggle-steps')]",
+			"taskInOpenState":"//label[contains(@class,'steps active')]",
+			"treatAsURLCheckBox":"//input[contains(@class,'is-url')]",
+			"urlColName":"//span[@class='slick-column-name'][text()='URL']",
+			"textToLinkFirstValInURLCol":"//a[@href='http://clk.atdmt.com/MRT/go/115135741/direct/01/']",
+             "textToLinkFirstValInEngine":"//a[@href='Google']",
+			 "anyRuleDropDown":"//div[@class='menu-inline dropdown']/a/span[contains(@class,'menu-icon')]",
+			 "anyRuleNameInPipeline":"//div[contains(@class,'step_list__card')]//h5[contains(text(),'1.')]",
+			 "stepDescriptionInPipeline":"//div[contains(@class,'step_list__card')]/p",
+			 "infoIconInPipeline":"//span[contains(@class,'menu-icon')]",
+			 "transformSearchInput":"//span[contains(@class,'menu-search')]/following-sibling::input",
+			 "transformSearchResult":"//div[contains(@class,'transform-panel')]//li[contains(@class,'item task') and contains (@class,'highlight')]",
+			 "taskNotification":"//div[contains(@class,'reset-notification')]/div[@class='message ng-binding']",
+			 "prevArrowWhenMultipleViews":"//div[@class='view-previous']",
+			 "notificationBell":"//div[contains(@class,'notifications dropdown ')]",
+			 "showMoreNotification":"//div[@class='show-more-notification']",
+			 "firstNotificationInList":"//ul[contains(@class,'notification-pane')]/li[1]",
+			 "deleteNotification":"//span[contains(@class,'delete-notification')]",
+			 "loaderAfterDeletingNotification":"//div[@class='notificationContent']/span/i",
+			 "allCaughtup":"//li[@class='notification-center']",
+			 "sortDetailsInStatus": "//li[contains(@class,'sorted-by')]",
+			 "addNoteInDropdown":"//ul[contains(@class,'task-options custom-dropdown-menu')]//a[contains(text(),'Add Note')]",
+             "addNoteTitleWindow":"//div[@class='modal-body']/h5[contains(@class,'modal-title')]",  
+             "textAreaAddNote":"//div[@class='modal-body']/textarea",
+             "submitActionInPipeline":"//button[contains(@class,'btn-wide ml-btn-success')]",
+            "addedNoteInPipeline":"//li[contains(@class,'note')]/p",
+			"deleteInPipeline":"//ul[contains(@class,'task-options custom-dropdown-menu')]//a[.='Delete']", 
+            "deletetaskTitle":"//h5[text()='Delete Confirmation']" ,
+           "renameInPipeline":"//ul[contains(@class,'task-options custom-dropdown-menu')]//a[.='Rename']",
+          "renameTitleWindowPipeline":"//h5[@class='modal-title'][text()='Rename step']",
+          "renameInputBoxInPipeline":"//div[@class='modal-body']//input[@type='text']",
+          "editSortInFooter":"//span[@class='edit-option']",
+		  "selectColForSortInFooter":" //div[contains(@class,'col-sorting open')]//select",
+		  "applyButtonForSortInFooter":"//div[contains(@class,'ml-btn ml-btn-transparent apply-btn')]",
+		  "closeRuleWindow":"//a[contains(@class,'close-panel')]",
+		   "applyButtonDisabled":"//div[@class='buttons']//div[contains(@class,'disabled')]",
+            "modifyInDropDown":"//ul[contains(@class,'task-options custom-dropdown-menu')]//a[.='Edit']",
+            "firstEditInPipeline":"//ul[contains(@id,'taskMenu')][1]/li/a[.='Edit']",
+            "secondEditInPipeline":"//ul[contains(@id,'taskMenu')][2]/li/a[.='Edit']",
+             "columnFunctionsAddTask":"//li/a[text()='Column Functions']",
+			  "findAndReplace":"//li/a[text()='Replace']",
+			  "textFunctions":"//li/a[text()='Text Functions']",
+			  "dateFunctions":"//li/a[text()='Date Functions']",
+			  "consolidate":"//li/a[text()='consolidate']",
+			  "numericFunctions":"//li/a[text()='Numeric Functions']",
+			  "reshapeGroupAndAggregate":"//li/a[text()='Reshape, Group & Aggregate']",
+			  "mergeAndBranchOut":"//li/a[text()='Merge & Branch out']",
+			  "export":"//li/a[text()='Export']",
+			  "learnMoreLink":"//div[contains(@class,'learn-more')]",
+			  "dataviewAnyColumnHighlight":"//div[contains(@class,'slick-header-column source-highlight highlighted')]",
+			  "getNotificationTopRight":"//div[contains(@class,'ui-notification')]",
+			  "hoverOverSelectedColGrid":"//div[contains(@class,'source-highlight highlighted optionbutton grid-header-text')][1]",
+			  "dropdownSelectedTextColsGrid":"(//span[@class='type-text datatype']/following-sibling::div[@class='slick-header-menubutton'])[1]",
+			  "showOnlyTheseColsInGrid":"//div[contains(@class,'slick-header-menuitem') and @title='Show only these columns']",
+			  "findReplaceInGrid":"//span[contains(@class,'slick-header-menucontent')][text()='Find & Replace']"
+			  
+			  
+			  
+			  
+			  
+     "RemoveDuplicates":  
+
+                   [
+                          {
+
+                       "customerDuplicateFile":"//h5//span[contains(.,'Cust1_Duplicate')]",
+                             "evenRowsId":"//div[@class='ui-widget-content slick-row even']",
+                             "oddRowsId":"//div[@class='ui-widget-content slick-row odd']",                            
+                              "removeDuplicatesId":"//li/a[2][text()='Remove Duplicate Rows']",
+							  
+                               "removeDuplicateTitle":"//h3[contains(.,'Remove Duplicate')]",
+                               
+                                "cancelRemoveOperation":"//div[@class='btn btn-default cancel']",
+                                "applyButtonInRemove":"//div[contains(@class,'ml-btn-success') and @type='submit']",
+                                 "rowColInStatus":"//div[contains(@class,'status-bar grid-status-bar')]//ul",
+                                 "rowColInView2Status":"//div[contains(@class,'active-workspace')]//div[@class='status-bar grid-status-bar']/ul",
+                                  "csvFileId":"//h5//span[contains(.,'CSVoffice_main')]",
+                                   "pipelineSection":"//div[@class='step-wrap']",
+                                    "originalDS":"//li[@class='original-ds']", 
+                                    "removeRuleInPipeline":"//h5[contains(text(),'Remove Duplicate')]",
+                               "renamedRemoveDuplicateRuleInPipeline":"//h5[contains(text(),'1. RenamedRemoveDup')]"  	,								
+                                     "totalStepsInPipeline":"//div[contains(@class,'steps-panel dv-panel')]//div[@class='status-bar']/p[1]",
+                                     "docPageForRemoveDuplicateRule":"//h1[text()='Remove Duplicates']"	,
+                                     "columnListPlusIconToIgnore":"//label[contains(text(),'Choose columns to ignore')]/following-sibling::ul/li/a"									 
+									 
+                               
+                               
+                                
+
+
+ 
+                          }
+
+
+                   ] ,
+
+
+        "TopBottomRule":[ {
+                                "topBottomRule":"//li/a[2][text()='Show Top/Bottom Rows']",
+                                "topBottomTitle":"//h3[text()='Show Top/Bottom Rows']",
+                                "addSortLink":"//span[contains(@class,'sort-summary')][contains(.,'Add Sort')]",  
+                                "topOrBottomDropdown":"//div[@class='input-group']//div[@class='styled-select']/select",
+                                 "numberOfRowsInput":"//input[@type='number']",                               
+                                 "qtipInTopBottomMsg" :"//div[@class='qtip-content']",
+                                 "topBottomDropdownPipeline":"//h5[text()='1. Top/Bottom Rows']/parent::div//div[@class='menu-inline dropdown']//span[contains(@class,'menu-icon')]",                                
+                                "renamedNameInPipeline":"//h5[text()='1. TopRowsInPipeline']", 
+                        "topBottomupdatedDropdown":"//h5[text()='1. TopRowsInPipeline']/parent::div//div[@class='menu-inline dropdown']//span[@class='menu-icon']",
+                                     "engineColInTable": "//span[contains(@class,'slick-column-name')][text()='Engine']",
+                                    
+                                    "currentSortInTopBottom":"//div[@class='input-group']/a/span[contains(@class,'sort-summary-name')]",
+                                     "topBottomRuleName" :"//h5[contains(text(),'Show Top/Bottom Rows')]",
+                                    
+                                      "statusbarAfterModifyRule":"//div[@class='grid-panel elements-open steps-open']/div[@class='status-bar']/ul",
+                                        "editSorting":"//div[@class='input-group']//a/span",
+                                        "addSortButton":"//span[contains(@class,'ml-btn btn-xs ml-btn-condition')]",
+                                        "andCondition":"//div[contains(@class,'input-group')]/div[2][contains(@class,'field-row')]/div[1][@class='styled-select']/select"
+
+
+                           }
+
+
+                       ],
+             "GroupPivotRule":[
+
+                                {  "groupPivotFileId" :"//span[contains(.,'Grouppivotfile')]",
+                                    "engineColumn" :"//div[@class='slick-cell l4 r4']",
+                                    "keywordGroupCol":"//div[@class='slick-cell l5 r5']",
+                                      "impColId":"//div[contains(@class,'slick-cell l8 r8')]",
+                                     "groupPivot":"//li/a[2][text()='Group & Aggregate']",
+                                      "groupPivotTitle":"//h3[text()='Group & Aggregate']",
+                                       "groupTheFollowing":"//div[contains(@class,'input-group')]/label[text()='Group the following:']/following::ul[1]/li",
+                                       "groupFollowingLastCol":"//div[contains(@class,'input-group')]/label[text()='Group the following:']/following::ul[1]/li[last()]",
+                                       "groupByColList":"//div[contains(@class,'input-group')]/label[text()='Group the following:']/following::ul[1]/li", 
+                                       "aggregateBySection":"//div[contains(@class,'input-group')]/label[text()='And aggregate by:']", 
+                                       "aggregateByColList":"//div[contains(@class,'input-group')]/label[text()='And aggregate by:']/following::ul[1]",
+                                        "groupTableInPipeline":"//h5[contains(text(),'Group & Aggregate')]",
+                                         "groupByDetailInPipeline":"//h5[text()='1. Group & Aggregate']/following-sibling::p",
+                               "groupTablePipelineDropdown":"//h5[text()='1. Group Table']/parent::div//div[@class='menu-inline dropdown']//span[@class='menu-icon']", 
+                               "renamedGroupInPipeline":"//h5[contains(text(),'1. RenamedGroupPivot')]",    
+                      "groupPivotUpdatedDropdown":"//h5[text()='1. GroupPivotTableRenamed']/parent::div//div[@class='menu-inline dropdown']//span[@class='menu-icon']",
+                          "groupPivotResultSection":"//div[contains(@class,'group result')]",
+                            "resultColumnList":"//div[contains(@class,'group result')]/ul/li", 
+                             "draggerColumnIdInResult":"//div[contains(@class,'group result')]/ul/li[3]/div[@class='dragger']", 
+                              "dropperColumnIdInResult":"//div[contains(@class,'group result')]/ul/li[1]/div[@class='dragger']",
+                               "impAfterSum":"//div[contains(@class,'slick-cell l3 r3')]",
+                                "impAfterAvg":"//div[contains(@class,'slick-cell l2 r2')]",
+                                 "impAfterMaxMinSTD":"//div[@class='slick-cell l2 r2']",
+                               "engineAfterOperation":"//div[@class='slick-cell l1 r1']",
+                                "impDropDownAggregateBy":"//span[text()='Imps']/preceding::div[@class='styled-select grey']/select",
+                                 "decimalBoxresultSection":".//div[@class='format-field field-numeric']//a[@class='dropdown-toggle']",
+                                 "decimalPlaceWindow":"//div[@class='modal-content ui-draggable']//div[@class='dropdown-menu']//div[@class='select clearfix']",
+                             "decimalDropDownInWindow":"//div[@class='modal-content ui-draggable']//div[@class='dropdown-menu']//div[@class='select clearfix']/select",
+     "goButtonDecimalWindow":"//div[@class='modal-content ui-draggable']//div[@class='dropdown-menu']//div[@class='select']//button[@class='btn btn-xxs btn-mammoth']",
+                              "campaignAfterAvg":"//div[@class='slick-cell l1 r1']",
+                               "engineAfterAvgMore":"//div[@class='slick-cell l2 r2']",
+                                 "impAfterAvgMore":"//div[@class='slick-cell l3 r3']",
+                                  "countAggregateBy":"//div[@class='input-group']/label[text()='And aggregate by:']/following::ul[1]/li[1]",
+                                  "countColIDAfterOperation":"//span[@class='slick-column-name'][text()='Count']",
+                                    "countDataAftercount":"//div[@class='slick-cell l2 r2']",
+                                     "urlCol":"//div[@class='slick-cell l7 r7']",
+                                      "urlAfterCount":"//div[@class='slick-cell l1 r1']",
+                                     "textTypeGroupTheFollowing":"//div[@class='datatype type-text']",
+                                     "numericTypeGroupTheFollowing" :"//div[@class='datatype type-numeric']",
+                                      "engineHighlightMode":"//div[contains(@class,'slick-cell l4 r4 source-highlight highlighted')]",
+                                     "keywordGroupHighlightMode":"//div[@class='slick-cell l4 r4 source-highlight highlighted']",
+									 
+
+
+                                  }
+
+
+                            ],
+"PivotTable" :[
+
+
+                      {
+                          "pivotTableRule":"//li/a[3][text()='Crosstab']",
+                          "pivotTableTitle":"//h3[text()='Crosstab']",
+                          "pivotTableRuleInPipeline":"(//p//span[contains(text(),'Crosstab')])[1]",
+						  "columnlistvalueDateInPivot":"//ul[@class='columns-list']/li/span[text()='Date']",
+						  "rowBucket":"//div[contains(@class,'droppable')]//ul[@id='#row-bucket-container']"
+                          "columnlistvalueEngininPivot":"//ul[@class='columns-list']/li/span[text()='Engine']",
+						  "columnBucket":"(//div[contains(@class,'droppable')]//ul)[2]",
+						  "columnaggreagateBy":"//span[text()='Function:']/following-sibling::div/select"
+						  "columnlistvalueCampaignInPivot":"//ul[@class='columns-list']/li/span[text()='CampaignName']"
+              
+                      
+                         }
+                       ]
+
+
+
+             "Filter" : [
+
+                           {
+                               "filterFileID":"//span[contains(.,'Filterfile')]",
+                               "filter":"//li/a[2][contains(.,'Apply Filter')]",
+                                "filterTitle":"//h3[text()='Apply Filter']",
+                               "columnDropDown":"//div[contains(@class,'conditional')]//div[1] [contains(@class,'styled-select')]/select", 
+                               "operatorDropDown":"//div[contains(@class,'conditional')]//div[2] [contains(@class,'styled-select')]/select",
+                                "textBoxFilter":"//input[contains(@placeholder,'Type value')]",
+                                "outputBoxForCondition":"//div [contains(@class,'output')]/p",
+                                "createFilterInPipeline":"//h5[contains(text(),'Apply Filter')]",
+                                "filterDetailInPipeline":"//h5[text()='1. Apply Filter']/following-sibling::p",
+                             "filterPipelineDropDown":"//h5[text()='1. Apply Filter']/parent::div//div[@class='menu-inline dropdown']//span[@class='menu-icon']",
+                                 "renamedFilterInPipeline":"//h5[text()='1. RenamedFilter']",
+                                 "filterUpdatedDropDown":"//h5[text()='1. RenamedFilter']/parent::div//div[@class='menu-inline dropdown']//span[@class='menu-icon']",
+                                 "numericBoxFilter":"//input[@placeholder='Enter Numeric value']",
+                                  "firstNumericBox":"//input[1][@placeholder='Enter Numeric value']",
+                                  "secondNumericBox":"//input[2][@placeholder='Enter Numeric value']",
+                                  "updatedDateCol":"//div[@class='slick-cell l3 r3']",
+                                  "datepickerMonthHead":"//div[@class='flatpickr-month']",
+								  "clickToChoose":"//span[@class='datechooser']/a",
+								  "dateInputWindowTitle":"//h3[text()='Date Input']",
+								  "specficDateDropDownInDate":"//div[contains(@class,'datechooser')]/div[@class='styled-select']/select",
+								  "maxOrMinDropDownIndate":"//div[contains(@class,'date-filter')]/div[2]//div[@class='styled-select']/select",
+								  "dateInputBoxInDateInputWindow":"//input[contains(@class,'flatpickr-input')]",
+								  "doneInDateInputWindow":"//button[@class='btn btn-warning']",
+                                 "yearInputBox":"//div[contains(@class,'open')]//input[contains(@class,'cur-year')]",
+                                 "currentMonthName":"//div[contains(@class,'open')]//span[@class='flatpickr-current-month']",
+                                 "nextMonthArrow":"//div[contains(@class,'open')]//span[@class='flatpickr-next-month']",
+                                  "daysInList":"//div[contains(@class,'open')]//div[@class='flatpickr-days']//span[@class='flatpickr-day ']",
+								  "currentHrs":"//div[contains(@class,'open')]//input[@class='numInput flatpickr-hour']",
+								  "currentMinute":"//div[contains(@class,'open')]//input[@class='numInput flatpickr-minute']",
+								  "currentSec":"//div[contains(@class,'open')]//input[@class='numInput flatpickr-second']",
+								  "toggleAMPM":"//div[contains(@class,'open')]//span[@class='flatpickr-am-pm']",
+                                  "datePickerBox1":"//input[1][@type='text'][@placeholder='2015-12-15 16:50:30']",
+                                  "datePickerBox2":"//input[2][@type='text'][@placeholder='2015-12-15 16:50:30']",
+                                   "keywordColumn":"//div[@class='slick-cell l6 r6']",
+                                   "plusIconToAdd":"//div[contains(@class,'condition-menu')]",
+                                   "addConditionInList":"//div[contains(@class,'condition-menu')]/ul/li/a[text()='Add condition']",
+                                   "addNestedConditionInList":"//div[contains(@class,'condition-menu')]ul/li/a[text()='Add nested condition']",
+                                   "subconditionHead":"//div[2][contains(@class,'input-group')]",
+                                   "andOrDropdown":"//div[contains(@class,'conditional')]//div[2][contains(@class,'input-group')]//div[contains(@class,'styled-select logical-value')]/select",
+                                   "colDropDownSubCndtn":"//div[2][contains(@class,'input-group')]//condition-line//div[1][contains(@class,'styled-select')]/select",  
+                                   "operatorDropDownSubCndtn":"//div[2][contains(@class,'input-group')]//div[2][contains(@class,'styled-select')]/select",
+                                   "textBoxFilterSubCndtn":"//div[2][contains(@class,'input-group')]//input[contains(@placeholder,'Type value')]",
+                                  "numericBoxFilterSubCndtn":"//div[2][contains(@class,'input-group')]//input[@placeholder='Enter Numeric value']",
+                                  "plusIconNested":"//div[contains(@class,'input-group')]//div[contains(@class,'condition-menu')]",
+                                  "addNestedCndtnInSubList":"//div[contains(@class,'input-group')]//div[contains(@class,'condition-menu')]/ul/li[2]/a[text()='Add nested condition']",
+                                   "secondAndOrDropdown":"//div[contains(@class,'nested-group')]/preceding-sibling::div[@class='styled-select']/select",
+             "nestedcolDropDownSubCndtn1":"//div[contains(@class,'nested-group')]//div[1][contains(@class,'input-group')]//condition-line//div[1][contains(@class,'styled-select')]/select",
+                                    "nestedOpDropDownSubCndtn1":"//div[contains(@class,'nested-group')]//div[1][contains(@class,'input-group')]//div[2][contains(@class,'styled-select')]/select",
+                                 "nestedTxtBoxFilterSubCndtn1"  :"//div[contains(@class,'nested-group')]//input[contains(@placeholder,'Type value')]",
+                                    "thirdAndOrDropdown":"//div[contains(@class,'nested-group')]//div[@class='styled-select']/select",
+            "nestedcolDropDownSubCndtn2":"//div[contains(@class,'nested-group')]//div[2][contains(@class,'input-group')]//condition-line//div[1][contains(@class,'styled-select')]/select"  ,
+           "nestedOpDropDownSubCndtn2":"//div[contains(@class,'nested-group')]//div[2][contains(@class,'input-group')]//div[2][contains(@class,'styled-select')]/select",
+           "nestedTxtBoxFilterSubCndtn2" :"//div[contains(@class,'nested-group')]//div[2][contains(@class,'input-group')]//input[contains(@placeholder,'Type value')]",
+           "selectFilterTypeForCol1":"//div[contains(@class,'conditional')]//div[3] /col-type-input//div[contains(@class,'styled-select')]/select",
+		   "selectColumn1ToCompare":"//div[contains(@class,'conditional')]//div[3] /col-type-input//div[2][contains(@class,'styled-select')]/select",
+		   "selectFiltertypeForCol2":"//div[contains(@class,'conditional')]//div[3] /col-type-input//div[3][contains(@class,'styled-select')]/select",
+		   "selectColumn2ToCompare":"//div[contains(@class,'conditional')]//div[3] /col-type-input//div[4][contains(@class,'styled-select')]/select",
+                            }
+                            
+
+                      ],
+
+              "AddColumn" : [
+
+                           {
+                              "addColumnrule" :"//li/a[2][text()='New Column']",
+                               "addColumnTitle":"//h3[text()='New Column']",
+                              "columnFunctionFileId":"//h5//span[contains(.,'Columnfunctionfile')]",
+                              "columnNameInputBox1":"//div[contains(@class,'inputs function-newcol')]//input[@type='text']",
+                               "columnNameInputBox2":"//div[3]/input[@type='text']",
+                               "columnNameInputBox3":"//div[4]/input[@type='text']",
+                              "fstAddColDataTypeDropdown":"//div[contains(@class,'inputs function-newcol')]//div[@class='styled-select']/select",
+                             "secondAddColDataTypeDropdown":"//div[3][contains(@class,'input-group')]//div[@class='styled-select']/select",
+                             "thirdAddColDataTypeDropdown":"//div[4][contains(@class,'input-group')]//div[@class='styled-select']/select",
+                               "addRuleInPipeline":"//h5[contains(text(),'New column')]",
+                               "addedColumnDetails":"//h5[text()='1. New column']/following-sibling::p",
+                               "addedTextColumn":"//span[@class='slick-column-name'][text()='TextTypeColumn']",
+                               "addedTxtColDT":"./preceding-sibling::span[@class='type-text datatype']",
+                               "addColPipelineDropdown":"//h5[text()='1. Add Columns']/parent::div//div[@class='menu-inline dropdown']//span[@class='menu-icon']",
+                               "addedNumCol":"//span[@class='slick-column-name'][text()='NumTypeColumn']",
+                               "addedNumColDT":"./preceding-sibling::span[@class='type-numeric datatype']",
+                               "addedDateColumn":"//span[@class='slick-column-name'][text()='DateTypeColumn']",
+                               "addedDateColDT":"./preceding-sibling::span[@class='type-date datatype']",
+                              "addMoreCol":"//div[@class='btn btn-xs btn-condition']",
+                              "renamedAddedCol":"//h5[text()='1. RenamedAddedColumn']",
+                        "renamedAddedruledropdown":"//h5[text()='1. RenamedAddedColumn']/parent::div//div[@class='menu-inline dropdown']//span[@class='menu-icon']",
+                              "removeIconSelectedCol":"//div[@class='styled-select']//following-sibling::a[@class='close-x text-hide']",
+                              "deleteNewlyAddedColFromTable":"//a[text()='Remove Column']",                    
+                               "columnNameInputBox4":"//div[5]/input[@type='text']",
+                               "columnNameInputBox5":"//div[6]/input[@type='text']",
+                               "columnNameInputBox6":"//div[7]/input[@type='text']",
+                               "columnNameInputBox7":"//div[8]/input[@type='text']",
+                               "columnNameInputBox8":"//div[9]/input[@type='text']",
+                               "columnNameInputBox9":"//div[10]/input[@type='text']",
+                               "columnNameInputBox10":"//div[11]/input[@type='text']",
+                               "columnNameInputBox11":"//div[12]/input[@type='text']",
+                               "columnNameInputBox12":"//div[13]/input[@type='text']"
+
+                            }
+                        ],
+ 
+               "InsertCustomValue" :[
+
+                            {
+                              "insertCustomFileId":"//h5//span[contains(.,'Insertcustomvalue')]",
+							  "insertCustomModifyFileID":"//h5//span[contains(.,'Insertcustomvalueformodify')]",
+                               "insertCustomRule":"//li/a[2][contains(text(),'Label')]",
+                              "insertCustomValTitle":"//h3[contains(text(),'Label')]",
+                              "insertValueRuleInPipeline":"//h5[contains(text(),'Label')]",
+							   "labelPipelineDropdown":"//div[contains(@class,'step_list__card')]//div/h5[text()='1. Label']/parent::div/following-sibling::div[@class='menu-inline dropdown']//a[contains(@class,'dropdown-toggle')]",
+                
+                              "insertValueLabel":"//div[@class='pull-left']/label",
+                              "insertApplyResultSection":"//div[@class='input-group']/p",
+                              "existingColRadioButton":"//span[contains(.,'An existing column')]/preceding-sibling::input[@type='radio']",
+                              "existingColDropDown":"//div[contains(@class,'input-group apply-result')]//div[@class='styled-select']/select",
+                         "existingColSelectedDropdown":"//div[contains(@class,'input-group apply-result')]//div[@class='styled-select destination-highlight']/select",
+                             "insertCustOuterPanel":"//div[contains(@class,'inputs function-insert')]",
+                           "insertRuleDetailInPipeline":"//h5[contains(text,'Label')]/following-sibling::p",  
+                           "renamedInsertCustValInPipeline":"//h5[contains(text(),'1. RenamedInsertCust')]",
+                            
+                          "addConditionInRule":"//div[contains(@class,'add-condition')]",
+                            "conditionFilteringTitle":"//p[.='Apply the following condition:']",                          
+                             "inputBox1InsertCondtnal":"//div[contains(@class,'conditional')]//div[contains(@class,'selectize-input')]/input[@type='text']",
+                             "inputBox2InsertCondtnal":"(//div[contains(@class,'conditional')]//div[contains(@class,'selectize-input')])[2]/input[@type='text']",
+                  "inputBox2NumericInsertCndtn":"//div[contains(@class,'conditional')]//div[2][contains(@class,'input-group')]//input[@placeholder='Enter Numeric value']",
+                               "inputBoxForDateInput":"//input[contains(@class,'dateinput')]",
+							   "doneButtonInsert":"//div[contains(@class,'apply-condition')]",
+                               "newColRadioButton":"//span[contains(.,'A new column')]/preceding-sibling::input[@type='radio']",
+                               "insertColDataType":"//div[contains(@class,'inputs function-insert')]//span[@class='styled-select']/select",
+                              "newlyInsertedColumn":"//div[contains(@class,'slick-cell l12 r12')]",
+                              "inputBoxNewColumn":"//input[@placeholder='Enter new column name']",
+                              "formatLink":"//div[contains(@class,'field-date')]//a[@class='dropdown-toggle']",
+                             "decimalPlaceInsertCustVal":"//div[contains(@class,'input-group apply-result')]//color-chars/following-sibling::select",
+                             "commaInsertCustVal":"//div[contains(@class,'input-group apply-result')]//div[@class='decimal_places']/following-sibling::span//*[local-name()='svg']",
+                             "currencyDropdownInsertCustVal":"//div[contains(@class,'input-group apply-result')]//span[contains(@class,'currency')]/following-sibling::select",
+                             "percentageInsertCustVal":"//div[contains(@class,'input-group apply-result')]//div[@class='decimal_places']/following-sibling::span[text()='%']",
+                             "editConditions":"//div[contains(@class,'btn-block')]//div[@class='btn btn-xs btn-condition edit-condition']",
+                             "outputBoxOnEdit":"//div[contains(@class,'output-ready')]/p",
+                             "cancelIconInConditionInsert":"//div[2][contains(@class,'input-group')]//a[contains(@class,'close-x text-hide')]",
+                             "editConditionInsert":"//div[@class='btn btn-xs btn-condition edit-condition']",
+                             "cancelButtonInsertCndtnl": "//div[@class='btn btn-default'][text()='Cancel']",
+                              "removeAllCndtnLink":"//div[@class='btn btn-xs btn-condition remove-condition']/span",
+                              "areYouSureId":"//div[@class='btn btn-xs btn-condition remove-condition confirming']/p",
+                              "yesInAreYouSure":"//div[@class='btn btn-xs btn-condition remove-condition confirming']/p/a[text()='Yes']",
+							  "insertRuleFromColMenu":"(//div[@class='col-functions']//span[@class='dropdown-toggle'])[2]",
+							  "moreOptionLink":"(//ul[contains(@class,'col-functions')]//a[@class='more-options'])[2]",
+							  "chooseTypeInAnnotate":"(//div[contains(@class,'input-group')])/div[1]/span/select",
+							  "addAnotherValue":"//button[contains(@class,'sub-action')]/span[contains(text(),'another value')]",
+							  "someCellsInTheCol":"//div[@class='condition-checkbox condition-some']/input",
+							  "selectValueGoogleFromDropdown":"//div[contains(@class,'selectize-dropdown-content')]/div[text()='Google']",
+							  "numericBox2ForAllremainingCells":"(//div[contains(@class,'section-panel')]//div[contains(@class,'input-group')]//input[@placeholder='Enter Numeric value'])[2]"
+
+                              }
+
+
+                          ],
+
+
+         "DeleteColumn" :[
+
+
+                      {
+                          "deleteColumnRule":"//li/a[2][text()='Remove Column']",
+                          "deleteColumnTitle":"//h3[text()='Remove Column']",
+                          "deleteColumnRuleInPipeline":"//h5[contains(text(),'Remove Column')]",
+                     "deleteColPipelineDropdown":"//h5[text()='1. Delete Columns']/parent::div//div[@class='menu-inline dropdown']//span[@class='menu-icon']",
+                     "columnToDeletedropdown":"//div[contains(@class,'inputs function-newcol')]//div[contains(@class,'styled-select')]/select",
+                     "deleteColumnDetails":"//h5[text()='1. Delete Columns']/following-sibling::p",
+                     "highlightColumnToDelete":"//div[@class='ui-state-default slick-header-column deletions-highlight highlighted']",
+                     "removeSelectedColToDelete" :"//div[@class='styled-select deletions-highlight']/following ::a[@class='close-x text-hide']",
+                     "deleteMoreColumn":"//div[@class='btn btn-xs btn-condition mt8']",
+                   "renamedDeletedColRule":"//h5[contains(text(),'1. RenamedDeleteCol')]",
+                   "addedNoteInDeleteCol":"//li[contains(@class,'note')]/p",
+                 "columnMenuDeleteOption":"//a[text()='Delete Column']",
+                  "selectedColToDeleteDropdown":"//div[@class='styled-select deletions-highlight']/select"
+              
+                      
+                         }
+                       ],
+
+
+
+
+   "ConvertColumn" : [
+                          { 
+                           "convertColumnRule":"//li/a[2][text()='Convert Column Type']",
+                          "convertColumnTitle":"//h3[text()='Convert Column Type']",
+                          "convertColumnRuleInPipeline":"//h5[contains(text(),'Convert')]",
+                     "convertColPipelineDropdown":"//h5[contains(text(),'Convert Type')]/parent::div//div[@class='menu-inline dropdown']//span[@class='menu-icon']",
+                        "convertColumnDetails":"//h5[text()='1. Convert Columns']/following-sibling::p",
+                      "columnToConvertFromDropdown":"//div[contains(@class,'inputs function-convertcol')]//div[@class='styled-select']/select",
+                       "TypeConvertToDropdown":"//div[contains(@class,'inputs function-convertcol')]//div[2][contains(@class,'styled-select')]/select",
+                       "numWithTextDatatype":"//span[@class='type-text datatype']//following-sibling::span[text()='Imps']",
+                       "textWithDateDatatype":"//span[@class='type-date datatype']//following-sibling::span[text()='Engine']",
+                        "selectedDateFormat":"//div[contains(@class,'date-formatter-panel')]//div[contains(@class,'left-section')]//ul/li/input",
+						"okButtonInInputFormatpanel":"//button[contains(@class,'btn-ok')]",
+                       "textWithNumericDataType":"//span[@class='type-numeric datatype']//following-sibling::span[text()='Engine']",
+                       "numericWithDateDataType":"//span[@class='type-date datatype']//following-sibling::span[text()='Imps']",
+                       "note":"//p[@class='mt20']",
+                       "renamedConvertedCol":"//h5[contains(text(),'1. RenamedConverted')]",
+                       "convertMoreColumn":"//a[@class='btn btn-xs btn-condition'][text()='Convert more columns']",
+                       "removeConvertColIcon":"//a[@class='remove']",
+                    "selectedColToConvrtFromDropdown":"//div[@class='styled-select destination-highlight']/select",
+                    "secondSelectTypeConvertToDropdown":"//div[2][contains(@class,'input-group col-row')]//div[2][contains(@class,'styled-select')]/select",
+                      "columnMenuConvertOption":"//a[text()='Convert Column type']",
+                      "highilightOnSelection":"//div[@class='ui-state-default slick-header-column destination-highlight highlighted']"
+
+                            }
+
+
+                     ],
+                 
+
+   "SplitColumn" :[
+                     {
+                    "splitColumnRule":"//li/a[2][text()='Split Into Multiple Columns']",
+                    "splitColumnTitle":"//h3[text()='Split Into Multiple Columns']", 
+                    "highlightSourceOnSelection":" //div[contains(@class,'ui-state-default slick-header-column source-highlight highlighted')]",  
+                    "splitColumnRuleInPipeline":"//h5[contains(text(),'Split into')]",
+                     "splitColPipelineDropdown":"//h5[text()='1. Split into multiple columns']/parent::div//div[@class='menu-inline dropdown']//span[@class='menu-icon']",
+                     "renamedSplitedCol":"//h5[contains(text(),'1. RenamedSplited')]",
+                   
+                        "splitColumnDetails":"//h5[text()='1. Split into multiple columns']/following-sibling::p",
+                        "sourceColLabel":"//label[text()='Source column:']",
+                        "sourceColDropdown":"//label[text()='Source column:']/following-sibling::div[contains(@class,'styled-select')]/select",
+                        "delimeterInputBox":"//label[text()='Delimiter:']/following-sibling::input[@type='text']",
+                       "numberOfColToSplitdrop":"//label[text()='Number of columns:']/following-sibling::div[contains(@class,'styled-select')]/select",
+                       "resultingFirstCol":"//div[@class='input-wrap']/input[1][@type ='text']",
+                      "resultingSecondCol":"//div[@class='input-wrap']/input[2][@type ='text']",
+                      "resultingThirdCol":"//div[@class='input-wrap']/input[3][@type ='text']",
+                      "resultingFourthCol":"//div[@class='input-wrap']/input[4][@type ='text']",
+                       "selectedSourceColDrop":"//div[@class='styled-select source-highlight']/select",
+                      "CampNameResultantCol1Content":"//div[@class='slick-cell l2 r2']",
+                      "CampNameResultantCol2Content":"//div[@class='slick-cell l3 r3']",
+                      "CampNameResultantCol3Content":"//div[@class='slick-cell l4 r4']",
+                      "CampNameResultantCol4Content":"//div[@class='slick-cell l5 r5']"
+                 
+                     }
+
+
+
+                  ],
+
+
+
+      "CombineColumn" :[
+
+                       {
+
+                     "combineColumnRule":"//li/a[2][text()='Combine multiple columns']",
+                    "combineColumnTitle":"//h3[text()='Combine multiple columns']", 
+                    "combineColumnRuleInPipeline":"//h5[contains(text(),'Combine')]",
+                     "combineColPipelineDropdown":"//h5[text()='1. Combine Columns']/parent::div//div[@class='menu-inline dropdown']//span[@class='menu-icon']",
+                      "combineColumnDetails":"//h5[text()='1. Combine Columns']/following-sibling::p",
+                       "combineColList"  :"//div[contains(@class,'input-group col-selects')]/ul/li",
+                       "stringValueToSeparate":"//input[@placeholder='Enter text string']",
+                        "addStringValueIcon":"//div[@class='string-field']/a",
+                         "resultSectionOfCombineCol":"//div[contains(@class,'input-group result-panel')]//ul/li",
+                         "emptyResultSection":"//div[@class='input-group result-panel']//ul",
+                          "draggerObjectStringVal":"//span[2][contains(@class,'string-value')]",
+                           "dropperObjectKeywordGroup":"//div[contains(@class,'input-group result-panel')]//ul/li[2]",
+                            "combinedColumnContent":"//div[@class='slick-cell l6 r6']",
+                            "combinedColumnWithCondtnContent":"//div[@class='slick-cell l9 r9']",
+                            "combinedColDataType":"//span[contains(text(),'CombinedCol')]/preceding-sibling::span[@class='type-text datatype']",
+                            "lastColumnInCombine":"//div[@class='input-group col-selects']/ul/li[last()]",
+                           "lastSelectedColInResultSection":"//div[@class='input-group result-panel']//ul/li[last()]"
+                        }
+
+                    ],
+
+
+
+
+    "MathRule":   [
+
+
+                {
+                 "mathRuleFileId":"//h5//span[contains(.,'Mathrule')]",
+                 "mathRuleImpColContent":"//div[@class='slick-cell l3 r3']",
+                "mathRule":"//li/a[2][text()='Perform Math Function']",
+                "mathTitle":"//h3[text()='Perform Math Function']", 
+                "mathRuleInPipeline":"//h5[contains(text(),'Perform math')]",
+                "mathRulePipelineDropdown":"//h5[text()='1. Perform math function']/parent::div//div[@class='menu-inline dropdown']//span[@class='menu-icon']",
+              "renamedMathRulePipeline":"//h5[contains(text(),'1. RenamedMathRule')]",
+                "mathRuleDetails":"//h5[text()='1. Perform Math function']/following-sibling::p", 
+                "functionList" :"//div[@class='formula-select']/ul/li/span/a",  
+			     "mathRuleFormulaInputArea":"//div[@class='CodeMirror-lines']",
+                 "INTFunctionInTextArea":"//ul[contains(@class,'CodeMirror-hints')]/li[10]", 
+				 "SUMFunctionInTextArea":"//ul[contains(@class,'CodeMirror-hints')]/li[5]",
+				 "AVGFunctionInTextArea":"//ul[contains(@class,'CodeMirror-hints')]/li[6]",
+				 "COUNTFunctioninTextArea":"//ul[contains(@class,'CodeMirror-hints')]/li[4]",
+				  "MAXFunctioninTextArea":"//ul[contains(@class,'CodeMirror-hints')]/li[8]",
+				 "MinFunctioninTextArea":"//ul[contains(@class,'CodeMirror-hints')]/li[7]",
+				 "StdDevFunctionInTextArea":"//ul[contains(@class,'CodeMirror-hints')]/li[9]",
+				 
+				 "ImpColumnInTextArea":"//ul[contains(@class,'CodeMirror-hints')]/li[1]/div[@class='column']",
+				 "ClicksColumnInTextArea":"//div[@class='column' and text()='Clicks']",
+				 "AvgColumnInTextArea":"//div[@class='column' and text()='AvgPos']",
+				 "ClosingBracketInTextArea":"//div[@class='operator']",	 
+                 "sumFunctionToClick" :"//p[text()='Functions:']/following-sibling::ul//span[text()='SUM']",
+                 "textAreaIdInMath":"//div[contains(@class,'CodeMirror-wrap')]//textarea",
+                 "greenTick":"//i[@class='fa fa-check']",
+                 "looksGood": "//i[@class='fa fa-check']/parent::span",
+                 "sumFunctionDropdown":"//span[text()='SUM']/following-sibling::div[@class='styled-select']/select",
+                  "avgFunctionDropdown":"//span[text()='AVG']/following-sibling::div[@class='styled-select']/select",
+                 "minFunctionDropdown":"//span[text()='MIN']/following-sibling::div[@class='styled-select']/select",
+                  "maxFunctionDropdown":"//span[text()='MIN']/following-sibling::div[@class='styled-select']/select",  
+                  "avgFunctionToClick":"//p[text()='Functions:']/following-sibling::ul//span[text()='AVG']",
+                  "stDevFunctionToClick":"//p[text()='Functions:']/following-sibling::ul//span[text()='STDDEV']",
+                   "minFunctionToClick":"//span[text()='MIN']",
+                  "maxFunctionToClick":"//span[text()='MAX']",
+                 "resultantColInNumColListInNextRun":"//div[contains(@class,'formula-select')]//a[text()='ResultantColumn']",
+                  "mathRuleFromColumnMenu":"//a[text()='Perform Math Function']", 
+                  "countFunctionPanel": "//a[text()='COUNT()']", 
+                  "resultantColAfterRule" :"//span[@class='slick-column-name'][text()='ResultantColumn']",
+                  "metricSectionInMathFunctionPanel":"//p[text()='Metrics:']",
+                  "addedFirstMetricInMathFunctionPanel":"//p[text()='Metrics:']/following-sibling::ul//h6/following-sibling::a",
+                  "addedSecondMetricInMathFunctionPanel":"//p[text()='Metrics:']/following-sibling::ul/li[2]//h6/following-sibling::a",
+                  "addedSecondMetricHeadDSViewName":"//p[text()='Metrics:']/following-sibling::ul/li[2]//h6",
+                  "clickColName":"//span[@class='slick-column-name'][text()='Clicks']",
+                  "modifiedResultantColName":"//span[@class='slick-column-name'][text()='ModifiedResultantColumn']",
+                  "numericColListMathRule":"//div [contains(@class,'formula-select')]//following-sibling::p[text()='Numeric columns:']/following-sibling::ul",
+                  "needMoreWorkId":"//span[@class='invalid']"
+
+
+
+               }
+
+             ],
+
+
+
+
+     "RunningTotal" :[
+
+                 {
+                 "runningTotalFileID":"//h5//span[contains(.,'Runningtotalforsort')]",
+                "runningTotalRule":"//li/a[2][text()='Window function']",
+                "runningTotalTitle":"//h3[text()='Window function']", 
+                "runningTotalInPipeline":"//h5[contains(text(),'Window function')]",
+               
+                "runningTotalDetails":"//h5[contains(text(),'1. Window function')]/parent::div/following-sibling::p", 
+                "calculateFunction":"//label[contains(text(),'Calculate') and not (contains(text(),'over'))]/following-sibling::div[contains(@class,'styled-select')]/select",
+				"columnToCalculateFunction":"//label[contains(text(),'Of') and not (contains(text(),'over'))]//following-sibling::div[contains(@class,'styled-select')]/select",
+                 "runningTotalResultantColumn":"//div[contains(@class,'slick-cell l12 r12')]",
+                  "runningTotalRuleFromColumnMenu":"//a[text()='Calculate Running Total']",
+				  "sortByColumnInRunningTotal":"//label[text()='Sort by:']/following-sibling::div[1]/select",
+				  "selectOrderInRunningTotal":"//label[text()='Sort by:']/following-sibling::div[2]/select",
+				   "selectMoreColToSort":"//div[2][@class='field-row ng-scope']//label[text()='Sort by:']/following-sibling::div[1]/select"
+
+                 }
+
+            
+
+
+               ],
+  "ExtractString" :[
+
+                   {
+				   "extractStringFileID":"//h5//span[contains(.,'Extractstring')]",
+                 "extractStringRule":"//li/a[2][text()='Extract Text']",
+                "extractStringTitle":"//h3[text()='Extract Text']", 
+                "extractStringInPipeline":"//h5[contains(text(),'Extract text')]",
+                "extractStringPipelineDropdown":"//h5[text()='1. Extract Text']/parent::div//div[@class='menu-inline dropdown']//span[@class='menu-icon']",
+				"renamedExtractStringRule":"//h5[contains(text(),'1. RenamedExtractStr')]",
+                "extractStringDetails":"//h5[text()='1. Extract Text']/following-sibling::p", 
+                "extractTextFromDropdown":"//label[text()='Extract text from:']/following-sibling::div[contains(@class,styled-select)]/select",
+                "whatToExtractDropdown":"//label[text()='What to extract:']/following-sibling::div[contains(@class,'styled-select')]/select",
+                "allOrSpecificDropdown":"//div[contains(@class,'section-panel mt8')]//div[@class='input-group']/div[1][@class='styled-select']/select",
+                "leftOrRightDropdown":"//div[@class='styled-select']/select[contains(@ng-model,'left')]",
+                "wildCardInputBox":"//div[@class='pull-left']/input[@placeholder='letter/word']",
+                 "numCharacters":"//input[@type='number']",
+				 "position":"//input[@placeholder='0']",
+				 "includeWildcardCheck":"//input[@type='checkbox']/following-sibling::span[text()='include wild-card in extract']",
+				 "charFromBegingEndDropdown":"//div[contains(@class,'section-panel mt8')]//div[@class='input-group']/div[5]/div[@class='styled-select']/select",
+				 "extractStringFromColMenu":"//div[@class='col-functions']//a[text()='Extract String']",
+				 "selectedColDropdownInExtractString":"//div[contains(@class,'inputs function-extract')]//div[@class='styled-select source-highlight']/select"
+                                     
+
+                      }
+
+                   ],
+ "Add or Subtract date Values":[
+                                 {
+                 "addsubtractFileId"	:	"//h5//span[contains(.,'Addsubdatefile')]",						  
+                "addSubtractRule":"//li/a[2][text()='Increment/Decrement Date Values']",
+                "addSubtractTitle":"//h3[text()='Increment/Decrement Date Values']", 
+                "addSubtractInPipeline":"//h5[contains(text(),'Increment/decrement')]",
+                "addSubtractPipelineDropdown":"//h5[contains(text(),'1. Increment/Decrement')]/parent::div//div[@class='menu-inline dropdown']//span[@class='menu-icon']",
+				"renamedAddSubRule":"//h5[contains(text(),'1. RenamedAddSub')]",
+                "addSubtractDetails":"//h5[contains(text(),'1. Increment/Decrement')]/following-sibling::p", 
+                "selectColToAddOrSub":"//label[text()='Date Column:']/following-sibling::div[@class='wrap']/div[@class='styled-select']/select",
+                "addOrSubtractDropdown":"//div[@class='section-panel']//div[@class='styled-select']/select",
+                "yearToAddSub":"//div[@class='num-inputs']/div[1][@class='wrap']/input[@type='number']",
+                 "monthToAddSub":"//div[@class='num-inputs']/div[2][@class='wrap']/input[@type='number']",
+                "weekToAddSub":"//div[@class='num-inputs']/div[3][@class='wrap']/input[@type='number']",
+                 "dayToAddSub":"//div[@class='num-inputs']/div[4][@class='wrap']/input[@type='number']",
+                 "hoursToAddSub":"//div[@class='num-inputs']/div[5][@class='wrap']/input[@type='number']",
+                 "minuteToAddSub":"//div[@class='num-inputs']/div[6][@class='wrap']/input[@type='number']",
+                 "secondsToAddSub":"//div[@class='num-inputs']/div[7][@class='wrap']/input[@type='number']",
+                 "newlyAddedDateResultantCol":"//div[@class='slick-cell l5 r5']",
+				  "transcationDateColName":"//span[@class='slick-column-name'][text()='Transaction_date']",
+				  "selectedColDropdownInAddSubtract":"//div[contains(@class,'inputs function-dateadd')]//div[@class='styled-select source-highlight']/select",
+				  "addSubtractFromColumnMenu":"//div[@class='col-functions']//a[text()='Increment / Decrement Date']"
+           
+
+
+                       }
+                          ],
+
+
+    "Extract Date":[
+                  {
+                "extractDateRule":"//li/a[2][text()='Extract Date Part']",
+                "extractDateTitle":"//h3[text()='Extract Date Part']", 
+                "extractDateInPipeline":"//h5[contains(text(),'Extract date part')]",
+                "extractDatePipelineDropdown":"//h5[text()='1. Extract Date']/parent::div//div[@class='menu-inline dropdown']//span[@class='menu-icon']",
+				"renamedextractDateRule":"//h5[contains(text(),'1. RenamedExtractDate')]",
+                "extractDateDetails":"//h5[text()='1. Extract Date']/following-sibling::p",      
+                "extractDateFromCol":"//label[text()='Extract date from:']/following-sibling::div[contains(@class,'styled-select')]/select",
+				"extractDateFromColumnMenu":"//div[@class='col-functions']//a[text()='Extract Date']",
+				"selectedExtractDateFromColMenu":"//label[text()='Extract date from:']/following-sibling::div[@class='styled-select source-highlight']/select"
+
+
+                    
+
+              }
+               ],
+
+        "Add Metric":[
+                     {
+					 "elementSectionAddIcon":"//i[@class='fa fa-plus-circle']",
+                 "menubarOfElementSection":"//div[@class='element-menu']",
+                  "addMetricIcon":"//a[@class='metric']",
+                   "metricTitle":"//h4[contains(text(),'Data selection')]",
+				   "textAreaDropdownListMetric":"//ul[@class='CodeMirror-hints']/li",
+				  "showHideSelector":"//a[contains(@class,'toggle-minimize')]",
+				  "hidedSelector":"//section[contains(@class,'minimized')]",
+				   "NumColfunctionMetricName":"//div[@class='formula-select']/p",
+				   "doneButtonDisable":"//button[contains(@class,'disabled')]",
+				   "deleteMetric":"//a[@class='el-delete']",
+				   "deleteMetricTitle":"//h3[text()='Delete Metric']",
+				   "goButtonInColSummaryMetric":"(//ul//a[contains(text(),'Create a Metric')])[1]/following-sibling::div[@class='dropdown-menu right-arrow']//button[contains(text(),'GO')]",
+				   "elementsInColMenu":"(//a[contains(@class,'nav-link')])[2]",
+				   "metricInColMenu":"//following-sibling::div[@title='Create a Metric']",
+				   "metricFunctionDropdownInColMenu":"//div[contains(@class,'styled-select metric')]/select",
+				   "applyInColMenuElement":"//div[contains(@class,'element-creation')]//span[@class='apply-button']",
+				   
+				   
+                   "functionsNameListInElement":"//p[text()='Functions:']/following-sibling::ul/li/span/a",
+                   "avgFunctionNameInElement":"//span[text()='AVG']",
+                    "metricNameInElementPanelLeftSide":"//div[@class='metric-element-container large']",
+                    "metricNameInDataviewRightSide":"//div[contains(@class,'metric-element-container')]",
+					"tabsInMetric":"//div[contains(@class,'tools-metrics')]//a[contains(@class,'nav-link')]",
+					"titleInAppearance":"//div[contains(@class,'field-row')]/input[@type='text']",
+					"displayNameInAppearance":"//span[text()='Display name']/following-sibling::input",
+					"subtitleInAppearance":"//span[text()='Subtitle']/following-sibling::input",
+					"noteInAppearance":"//textarea[@type='text']",
+					"createMetricFromColSummary":"//i[@class='fa fa-hashtag']",
+					"metricOnDataView":"//div[contains(@class,'type-metric')]"
+					"moreOptionLinkInMetricColMenu":"(//div[contains(@class,'element-creation')]//a[@class='more-options'])[1]",
+                    "doneButtonInConditionMetric":"//div[@class='buttons']//div[contains(@class,'ml-btn ml-btn-success')]",
+					"decimalFormatInMetric":"//color-chars/following-sibling::select",
+					"doneButtonInMetricWindow":"//button[@type='submit']"
+
+                        }],
+
+        "AddChart":[
+                  {
+                   "addChartIcon":"//a[@class='chart']",
+				   "addChartTitle":"//h4[text()='Select Chart type']",
+				   "activeChartList":"//li[@class='ci']",	   
+                    "xAxisColumn":"//div[contains(@class,'axis-list')]//select",
+                   "yAxisColumn":"//h4[contains(text(),'Y-Axis')]/following-sibling::div/div[contains(@class,'styled-select')]/select", 
+                     "chartOnDataView":"//div[@class='chart front']",
+					 "sourceDataonDataView":"//a[@class='el-source-data']",
+					 "shareDataOnDataView":"//a[@class='el-share']",
+					 "tooltipMsgOnChartDataview":"//div[contains(@class,'tooltip-inner')]",
+					 "editChartOnDataView":"//a[@class='el-edit']",
+					 "deleteChartOnDataView":"//a[@class='el-delete']",
+					 "deleteChartTitle":"//h3[text()='Delete Chart']",
+					 "dataSelectionInChart":"//h4[text()='Data']",
+					 
+					
+                    "colNameElementConditionWindow":"//div[@class='conditional']//div[1][contains(@class,'styled-select')]/select",
+                     "conditionNameElementConditionWindow":"//div[@class='conditional']//div[2][contains(@class,'styled-select')]/select",
+                    "autoComputeTitle":"//div[@class='field-row']/input[@type='text']",
+                     "chartId":"//div[@class='highcharts-container']",
+                     "shareIcon":"//a[@class='el-share']",
+					 "publishIcon":"//label[@class='btn btn-transparent publish']",
+                      "shareReportTitle":"//h3[@class='modal-title'][text()='Share as Report']",
+                     "enterReportTitle":"//div[@class='share']//input[@type='text']",
+                     
+					 "openReport":"//a[@class='open-report']"
+
+                    }                
+                    ],
+		"AddTable":[{
+		 "addTableIcon":"//a[@class='table']",
+		  "addTableTitle":"//h4[contains(text(),'Select a column or aggregate')]",
+		  "columnListInTable":"//div[@class='input-group'][1]/ul/li",
+		  "addIconWithEngineInList":"//span[text()='Engine']/preceding-sibling::a[@class='add']",
+		  "aggregateByListInTable":"//div[@class='input-group'][2]/ul/li",
+		  "addIconWithCountInList":"//span[text()='Count']/preceding-sibling::a[@class='add']",
+		  "tableOnDataView":"//div[contains(@class,'type-table')]"
+		
+		}
+		],			
+					
+
+       "Copy Column":[
+                       {
+                "copyColumnRule":"//li/a[2][contains(text(),'Copy Column')]",
+                "copyColumnTitle":"//h3[contains(text(),'Duplicate Column / Copy Column')]", 
+                "copyColumnInPipeline":"//h5[contains(text(),'Duplicate Column / Copy Column')]",
+                "copyColumnPipelineDropdown":"//h5[text()='1. Copy Column']/parent::div//div[@class='menu-inline dropdown']//span[@class='menu-icon']",
+                "copyColumnDetails":"//h5[text()='1. Copy Data from Column']/following-sibling::p",  
+                "copyFromColDropdown":"//label[text()='Copy from:']/following-sibling::div[@class='styled-select']/select",
+                "selectedCopyFromColDropdown":"//label[text()='Copy from:']/following-sibling::div[@class='styled-select source-highlight']/select",
+                "copiedEngineColContent":"//span[text()='Copied_Engine_Text_Column']/following::div[@class='slick-cell l5 r5']",
+                "renamedCopiedRuleInPipeline":"//h5[text()='1. RenamedCopiedRule']",
+                 "copiedImpColContent":"//span[text()='Copied_Engine_Text_Column']/following::div[@class='slick-cell l10 r10']",
+                "copiedDateColContent":"//span[text()='Copied_Engine_Text_Column']/following::div[@class='slick-cell l4 r4']",              
+                "columnMenuCopyDataOption":"//div[@class='col-functions']//a[text()='Copy Data']",
+              "highlightColumnToCopy":"//div[@class='ui-state-default slick-header-column deletions-highlight highlighted']"
+
+                  }
+
+
+                    ],
+	"Get Small or Large":[
+	             {
+				 "smallOrLargeFile":"//h5//span[contains(.,'Smallorlargetestfile')]",
+				 "smallOrLargeRule":"//li/a[2][text()='Obtain Large Or Small Values']",
+                 "smallOrLargeTitle":"//h3[text()='Obtain Large Or Small Values']", 
+                 "smallOrLargeInPipeline":"//h5[contains(text(),'Obtain large or')]",
+                "smallOrLargePipelineDropdown":"//h5[text()='1. Obtain large or small values']/parent::div//div[@class='menu-inline dropdown']//span[@class='menu-icon']",
+                "renamedGetSmallLargeRule":"//h5[contains(text(),'1. RenamedGetSmall')]",
+                "smallOrLargeDetails":"//h5[text()='1. Small or Large']/following-sibling::p",  
+				"findSmallOrLargeDropDown":"//p[text()='Find:']/following-sibling::span[contains(@class,'small-large')]/select",
+				"findValueForSmallOrlargeDropdown":"//p[text()='Find:']/following-sibling::span[contains(@class,'select-index')]/select",
+				"findNumber":"//label[text()='Find']/following-sibling::span[1][@class='styled-select']/select",
+				"selectColumnInSmallOrlarge":"//div[contains(@class,'function-small-large')]//input[@title='columnCheckboxes']",
+				"addControlValueLink":"//div[@class='control-value']/a",
+				"controlValueInput":"//div[@class='control-value']//input"
+              
+				 
+	                  }
+	                ],
+					"Extract From JSON":[
+	             {
+				
+				 "extractjsonRule":"//li/a[2][text()='Extract JSON']",
+                 "extractjsonTitle":"//h3[text()='Extract JSON']", 
+                 "extractjsonInPipeline":"//h5[contains(text(),'JSON')]",
+				 "extractJsonSourceCol":"//div[contains(@class,'col-json')]//div[@class='styled-select']/select",
+				 "selectJsonTypeOrExtractAs":"//div[contains(@class,'json-type')]//div[@class='styled-select']/select",
+				 
+                
+              
+				 
+	                  }
+	                ],
+					"Date Difference":[
+	             {
+				
+				 "dateDifferenceRule":"//li/a[2][text()='Calculate Date Difference']",
+                 "dateDifferenceTitle":"//h3[text()='Calculate Date Difference']", 
+                 "dateDifferenceInPipeline":"//h5[contains(text(),'Date Diff')]",
+				 "startDateCol":"//label[text()='Start Date:']/following-sibling::div//div[@class='styled-select']/select",
+				 "endDateCol":"//label[text()='End Date:']/following-sibling::div//div[@class='styled-select']/select",
+				 "saveResultAs":"//label[text()='Save results as:']/following-sibling::div//div[@class='styled-select']/select"
+				 
+                
+              
+				 
+	                  }
+	                ],
+					"Reshape Data":[
+	             {
+				
+				 "reshapeRule":"//li/a[2][text()='Columns To Rows']",
+                 "reshapeRuleTitle":"//h3[text()='Columns To Rows']",
+				 "columnListToReshape":"//div[contains(@class,'col-selects')]//ul/li/input",
+                 "reshapeRuleInPipeline":"//h5[contains(text(),'Columns to rows')]"				 
+	                  }
+	                ],
+					"Save as Dataset":[
+	             {
+				
+				"saveAsDSInAddtask":"//li/a[3][contains(text(),'Branch Out')]",
+                 "saveAsDSTitle":"//h3[text()='Branch Out To Dataset']" ,
+				 "saveAsDSInPipeline":"(//h5[contains(text(),'Branch Out To Dataset')])[1]",
+				 
+	              }
+	                ],
+				   "Pipline in error":[
+				   {
+				    "pipeline_error_stage" :"//div[contains(@class,'step_list__card error')]/p",
+					"options_in_error_stage":"//div[contains(@class,'btn-action')]/span",
+					"delete_in_pipline_in_error":"//div[contains(@class,'btn-action')]/span[contains(.,'Delete')]",
+					"fix_in_pipeline_in_error":"//span[contains(@class,'btn-fix')]",
+					"confirmationModal":"//h5[text()='Confirmation?']",
+					"columnMappingInError":"//div[contains(@class,'source-panel') and contains(@class,'error')]",
+					"disableErroneousMapping":"//ul[@class='map-column col-pd error']//li[@class='column-mapping']",
+					"enableColMapping":"//ul[contains(@class,'error disabled')]//label[@class='switch match-cols']",
+					"removeColumnMissingFromBucketInCrosstab":"//span[text()='Column Missing']/following-sibling::span[@class='delete']"
+					
+					
+				   
+				   
+				   }
+				   ],
+					
+					
+				"Format Text":[
+	             {
+
+				                 "formatTextRule":"//li/a[2][text()='Text Formatting']",
+                                 "formatTextTitle":"//h3[text()='Text Formatting']", 
+                                "formatTextInPipeline":"(//h5[contains(text(),'Text formatting')])[1]",
+                                "formatTextPipelineDropdown":"//h5[contains(text(),'Text Formatting')]/parent::div//div[@class='menu-inline dropdown']//span[@class='menu-icon']",
+                          "renamedFormatTextInPipeline":"//h5[contains(text(),'1. RenamedFormatText')]",
+                                "formatTextDetails":"//h5[text()='1. Format Text']/following-sibling::p",  
+				                "selectOneOrMoreColumnLabel":"//label[text()='Select one or more columns:']",
+								"columnListInFormatText":"//div[contains(@class,'inputs function-textformat')]//ul[@class='multiselect']/li",
+								"changeCaseOrNormalizeWhiteSpace":"//div[contains(@class,'input-group checks')]/label/input",
+								"caseDropdown":"//div[contains(@class,'input-group checks')]/div[@class='styled-select']/select",
+								"exampleInFormatText":"//div[@class='input-group checks'][1]//small/span"
+               
+				 
+	                  }
+	                ],	
+					
+					"LookUP":[
+	             {
+                                    "ColumnNameOnDataView" :"//span[@class='slick-column-name']",
+									"lookUPRule":"//li/a[2][text()='Lookup']",
+									"lookUPTitle":"//h3[text()='Lookup']",
+									"selectThisTable":"//div[contains(@class,'pt-2 mb-1')]/following-sibling::div/select",
+									"selectLookUpTable":"//span[contains(@class,'ui-select-choices-row')]",
+									"selectKeyColumn":"//div[contains(text(),'Key Column:')]/following-sibling::div/select",
+									"selectValueColumn":"//div[contains(text(),'Value Column:')]/following-sibling::div/select",
+									"keyColumnRows":"//div[text()='Key Column rows:']/following-sibling::ul[@sync-scroll='lookupListScrollPosition']/li",
+									"valueColumnRows":"//div[text()='Value Column rows:']/following-sibling::ul[@sync-scroll='lookupListScrollPosition']/li",
+									"lookUpRuleFromOtherInPipeline":"//h5[contains(text(),'Lookup')]",
+									 "lookupTextDetails":"//h5[contains(text(),'Lookup from other Tables')]/following-sibling::p",  
+									 "lookUpResultantColOnView1":"//span[@class='slick-column-name' and text()='LookupResultantColumn']",
+								 "lookUPTextPipelineDropdown":"//h5[text()='1. Lookup from other Tables']/parent::div//div[@class='menu-inline dropdown']//span[@class='menu-icon']",
+                          "renamedLookUpRule":"//h5[contains(text(),'1. RenamedLookUP')]",
+						   "selectDSFromResolveDependencyForTemplateInLookup":"//label[contains(text(),'LOOKUP')]/following-sibling::span/select"
+									
+									
+									
+	                
+				 
+	                  }
+	                ],	
+					
+					
+					
+					
+					
+					
+					
+					
+		"Search Replace And Group Replace":[
+	             {
+				
+				 
+				  "simpleReplaceRule":"//li/a[2][text()='Find And Replace']",
+                "searchReplaceTitle":"//h3[text()='Find And Replace']", 
+                "searchReplaceInPipeline":"//h5[contains(text(),'Find and Replace')]",
+                "searchReplacePipelineDropdown":"//h5[contains(text(),'Simple Replace')]/parent::div//div[@class='menu-inline dropdown']//span[@class='menu-icon']",
+                "searchReplaceDetails":"//h5[contains(text(),'Find and Replace')]/following-sibling::p", 
+                "renamedSearchReplaceRuleInPipeline":"//h5[contains(text(),'1. RenamedSearchRep')]",	
+				 "renamedSearchReplacePipelineDropdown":"//h5[text()='1. RenamedSearchReplaceRule']/parent::div//div[@class='menu-inline dropdown']//span[@class='menu-icon']",
+				"seacrhValueInputBox":"//input[@placeholder='value']",
+				"replaceValueInputBox":"//div[contains(@class,'search-box')]/following-sibling ::input[@type='text']",
+				"applySearchToAllColumn":"//div[contains(@class,'col-selects')]/span[text()='Select all']",
+				"columnCheckboxListToSearch":"//div[contains(@class,'col-selects')]/div/ul/li",
+				
+				"groupReplaceRule":"//li/a[2][text()='Bulk Replace']",
+				"groupReplaceTitle":"//h3[text()='Bulk Replace']", 
+				"selectColInGroupReplace":"//div[@id='group-replace-container']//select",
+				"numberOfSuggestionFound":"//div[contains(@class,'suggestions')]/span[contains(text(),'1')]",
+				"autofillLink":"//div[contains(@class,'suggestions')]//a[@class='autofill']",
+				"groupReplaceInPipeline":"//h5[contains(text(),'Bulk Replace')]",
+				
+				"selectedColTitleInBulk":"//h4/span[@title='Keyword']",
+				"draggableItemsListInBulk":"//ul[contains(@class,'values')]/li[contains(@class,'summary-value-selectable')]",
+				"dropppableAreaBucket1InBulk":"//ul[contains(@class,'replace-group ui-droppable')]",
+				"dropppableAreaBucket2InBulk":"//div[contains(@class,'bucket-list bucket-edit')]//ul[contains(@class,'replace-group ui-droppable')]",
+				"bucket1ReplaceWithInput":"//div[contains(@class,'bucket-list')]//input[contains(@class,'replace-value')]",
+				"bucket2ReplaceWithInput":"//div[1][contains(@class,'bucket-list')]//input[contains(@class,'replace-value')]",
+				"addAnotherBucket":"//a[@class='add-bucket']",
+				"exactMatchCheckBox":"//span[text()='exact match']/preceding-sibling::input[@type='checkbox']",
+				 "caseCheckBox":"//span[text()='match case']/preceding-sibling::input[@type='checkbox']",
+				 "deleteBucket":"//i[@class='fa fa-trash bucket-delete']",
+				 "valueInBucket":"//ul[contains(@class,'replace-group')]//div[contains(@class,'item text')]",
+				 "addField":"//a[contains(@class,'add-field')]"
+               
+				 
+	                  }
+	                ]	,
+            "Cell Menu":[	
+			{
+			"cellHighlight":"//div[@class='slick-cell l3 r3 cell-menu-selected']",
+			"goButtonInKeepOnlyRows":"//div[contains(@class,'cell-menu-container')]//span/following-sibling::button[@class='btn btn-xxs btn-mammoth go-btn']",
+			"keepOnlyDropdown":"(//div[contains(@class,'cell-menu-container')]//div[@class='styled-select']/select)[1]",
+			"rowsThatAreDropdown":"(//div[contains(@class,'cell-menu-container')]//div[@class='styled-select']/select)[3]",
+			"rowsThatAreDropdownForDate":"(//div[contains(@menu-type,'cell')]//li[1]//div[@class='styled-select']/select)[2]",
+			"replaceAllvaluesLikeThisInCellMenu":"//div[@class='col-menu-container cell-menu-container']//ul/li[3]//a[contains(@class,'dropdown')]"
+			
+			
+			
+			
+			}],
+			"Download DS":[
+			{
+			"clickOnDownload":"//a[contains(@class,'download-grid')]",
+			"prepareForDownloadMsg":"//span[contains(@class,'download-note')]",
+			"readyForDownloadMsg":"//a[contains(@class,'download-note')]",
+			"clickOnGreenIconDownload":"//a[contains(@class,'download-grid ready')]"
+			
+			
+			}
+			],
+			"Join with Dataset":[
+			{
+			 "joinRule":"//li/a[2][text()='Join']",
+             "joinRuleTitle":"//h3[text()='Join']", 
+             "joinRuleInPipeline":"//h5[contains(text(),'Join']",
+             "joinRulePipelineDropdown":"//h5[contains(text(),'Join with Another']/parent::div//div[@class='menu-inline dropdown']//span[@class='menu-icon']",
+             "joinRuleDetails":"//h5[contains(text(),'Join with Another']/following-sibling::p",
+			 "dropdownForRightDSToJoin":"//div[contains(@class,'ui-select-match')]/span",
+			 "selectRightDSToJoin":"//div[contains(@class,'ui-select-choices-row')]",
+			 "typeOfJoin":"//div[@class='join-types']//select[contains(@class,'join-choice')]",
+			 "commonKeyFromLeftDS":"//span[@class='match-arrow']/preceding-sibling::div[contains(@class,'styled-select')]/select",
+			 "commonKeyFromRightDS":"//span[contains(@class,'match-arrow')]/following-sibling::div[contains(@class,'styled-select')]/select",
+			 "selectDSFromResolveDependencyForTemplateInJoin":"//label[contains(text(),'JOIN')]/following-sibling::span/select",
+			 "importAllColumn":"//div[@class='columns column-active']//span[@class='col-checkbox']/input[@type='checkbox']",
+			 "dropdownToSelectColumnType":"//div[contains(@class,'column-active')]/div[@class='col-table-head']//span/following-sibling::a",
+			 "columnTypes":"./following-sibling::div[@class='dropdown-menu']/ul/li/a",
+			 "highlightedColumnsOnSelection":"//div[contains(@class,'header-column join-highlight')]",
+			 "numericTypeColumnsInList":"//ul[@class='column-list-item']//div[contains(@class,'datatype type-numeric')]",
+			 "allColumnsInList":"//ul[@class='column-list-item']/li[@class='ng-scope']/input",
+			 "prefixInputBoxInJoin":"//input[contains(@class,'prefix-input')]",
+			 "item2ColumnName":"//span[contains(@class,'slick-column-name')][text()='Item 2']"
+			 
+			}
+			],
+			
+			 "ColumnSummary":[
+	
+	{
+	"highlightedValueInColSummary":"//ul[contains(@class,'list')]/li[contains(@class,'selected')]",
+	"filterInColumnSummary":"//a[contains(@class,'option')]//div[contains(@class,'filter-icon')]",
+	"selectedFilterDropdown":"//a[contains(@class,'option dropdown')]//i[contains(@class,'filter')]",
+	"createNewFilterinSummary":"//ul[contains(@class,'filter-menu dropdown')]/li[contains(text(),'new filter')]",
+	"addToExistingFilterinSummary":"//ul[contains(@class,'filter-menu dropdown')]/li[contains(text(),'existing filters')]",
+	"transformInColumnSummary":"//a[contains(@id,'card_options')]",
+	"goButtonInColumnSummary":"//div[contains(@class,'col-menu-container')]//span/following-sibling::button[@class='btn btn-xxs btn-mammoth go-btn']",
+	"applyButtonOfReplaceInColumnSummary":"//input[contains(@class,'explore-input')]//following-sibling::button[contains(@class,'go-btn')]",
+	"rowsThatAreDropdownInTextCol":"(//div[contains(@menu-type,'summary')]//li[1]//div[@class='styled-select']/select)[1]",
+	"replaceAllvaluesLikeThisInColSummary":"//span/b[contains(text(),'Replace')]",
+  "removeAllValuesLikeThisInSummary":"//li[@class='filter-options']/b[text()='Remove']",	
+  "keepOnlyRowsLikeThisInSummary":"//li[@class='filter-options']/b[text()='Keep']",
+	
+	"moreOptionsInColumnSummary":"//input[@placeholder='Replace Value']/following-sibling::a[text()='More options']",
+	"searchIconInSummary":"//i[@class='fa fa-search']",
+	"minimizeSearchWindow":"//div[contains(@class,'search-bar')]//div[@class='close-x']",
+	"searchInputBoxInSummary":"//div[contains(@class,'search-bar')]/input",
+	"exploreButtonDropDown":"//div[contains(@class,'explore-button')]//following-sibling::div[contains(@class,'menu-icon')]",
+	"showingXOfYRowsFilter":"//div[contains(@class,'indication dropdown')]/preceding-sibling::span",
+	"showingXOfYRowsDropdown":"//div[contains(@class,'explore-filter-bar')]//div[@class='indication dropdown']",
+	"resetAllFilter":"//a[contains(@class,'reset-all')]",
+	"numColumnSummaryFirstRangeBar":"//*[local-name()='g'][@class='highcharts-series highcharts-series-0 highcharts-tracker']",
+	"numColSummaryHoverBox":"//div[@class='tooltipContainer']",
+	"numColumnSummarySecondRangeBar":"(//div[@id='highcharts-5']//*[local-name()='g'][@class='highcharts-series highcharts-series-0 highcharts-tracker']/*[name()='rect'])[1]",
+    "threeDotsMenuInSummary":"//i[@class='fa fa-ellipsis-v']",
+     "clearFilter":"//a[text()='Clear Filters']",
+	 "histogramXaxisVal":"//*[local-name()='g'][@class='highcharts-axis-labels highcharts-xaxis-labels']",
+    "secondDateValRangeInHistogram":"(//*[local-name()='g'][@class='highcharts-series highcharts-series-0 highcharts-tracker']/*[name()='rect' and @fill='#44a1bb'])[2]",
+	"currentFilterMenu":"//div[contains(@class,'filter-bar-actions')]",
+	"addCurrentFilterAsStep":"//ul[contains(@class,'filter-actions')]/li",
+	"applyInFilterMenu":"//span[@class='apply-btn active']",
+	"filteredNewView":"//blocktype[contains(text(),'Filtered View')]",
+	"customCard":"//div[@class='custom-card']/input",
+	"customCardTitle":" //div[contains(@class,'active-workspace')]//div[contains(@class,'card-title')]",
+	"exploreCardTitle":" //div[contains(@class,'active-workspace')]//div[contains(@class,'column-name')]",
+	"selectCustomCardOption":"//div[contains(@class,'explore-menu')]//div[@class='custom-card']",
+	"firstColumnInCustomCard":"//div[contains(@class,'explore-menu')]//div[@class='columns']/ul/li[2]",
+	"applyButtonInCustomCard":"//div[contains(@class,'explore-menu')]//div[contains(@class,'confirm')]",
+	"cancelButtonInCustomCard":"//div[contains(@class,'explore-menu')]//div[contains(@class,'cancel')]",
+	"campaignNameInColSummary":"//div[contains(@class,'card-title')]//div[text()='CampaignName']",
+	"textCardDefaultNumSortDesc":"//div[contains(@class,'text-card')]//div[contains(@class,'sort-by-count-desc active')]",
+	"cardMenuDropdown":"//div[@class='card-menu dropdown']",
+	"textCardDefaultTextSortAsc":"//div[contains(@class,'text-card')]//div[contains(@class,'sort-by-text-asc')]",
+	"textCardSortDesc":"//div[contains(@class,'sort-by-text-desc')]",
+	"addAsElement":"//li[contains(@class,'create-element')]"
+	
+	                               
+	
+	
+	
+	}
+	],
+	"Samplemode":[
+	{
+	"sampleModeOption":"//span[contains(@class,'sampleMode') and contains(.,'Sample Mode')]",
+	"sampleModeSliderInDisableMode":"//div[contains(@class,'sample')]//span[@class='slider round']",
+	"enableSampleModeModal":" //h5[contains(text(),'Sample Mode')]",
+	"enableButtonInSampleModeModal":"//button[@class='ml-btn ml-btn-success' and text()='Enable sample mode']",
+	"sampleModeSliderInEnableMode":"//span[@class='slider round' and @uib-tooltip='Using the first 10,000 rows']",
+	
+	
+	
+	}]
+			
+              			
+
+                 
+
+            }
+
+
+
+],
+"Add Task Export": [
+		
+	    {
+		
+		
+		"downloadAsCSVRule":"//a[text()='CSV']",
+		"downloadAsCSVTitle":"//h3[text()='Download as CSV']",
+		"emailLinkToInputBox":"//div[contains(@class,'input-group')]/input",
+		"recievedMailToDownload":"//div[@class = 'y6']/span[contains(.,'View 1 is ready for download')]",
+		"recievedLinkToDownload":"//a[contains(@href,'https://s3.amazonaws.com/filesmammoth104')]",
+		
+		"mySqlInAction":"//li/a[3][text()='MySQL']",
+		"exportMySqlTitle":"//h3[text()='MySQL']",
+		 "enterHostInActionMySql":"//label[contains(text(),'Host:')]/following-sibling::input[@type='text']",
+		 "enterUserNameInActionMySql":"//label[contains(text(),'Username:')]/following-sibling::input[@type='text']",
+		 "enterPasswordInActionMySql":"//label[contains(text(),'Password:')]/following-sibling::input[@type='password']",
+		 "enterDatabaseInActionMySql": "//label[contains(text(),'Database:')]/following-sibling::input[@type='text']",
+		 "enterTableInActionMySql":"//label[contains(text(),'Table Name')]/following-sibling::input[@type='text']",
+		 "validateButtonInAction":"//div[contains(@class,'inputs action')]//div[contains(@class,'ml-btn ml-btn-success')]",
+		"postgreSQLInAction":"//li/a[3][text()='PostgreSQL']",
+		"exportPostgreSqlTitle":"//h3[text()='PostgreSQL']",
+		"runActionSequence":"//div[contains(@class,'common-bottom-options')]//select",
+		"actionAddedInpipeline":"//div[contains(@class,'pipeline-card action')]//h5",
+		"deleteActionTitleWindow":"//h3[contains(@class,'modal-title')][text()='Delete action']",
+		"runNowInpipelinedrop":"//div[contains(@class,'menu-inline dropdown menu-open')]/ul[@class='task-options dropdown-menu']/li/a[text()='Run now']",
+		"powerBiInAction":"//li/a[3][text()='Power Bi']",
+		"exportPowerBiTitle":"//h3[text()='Power Bi']",
+		"datasetName":"//label[contains(text(),'Dat')]/following-sibling::input[@type='text']",
+		"clientId":"//label[contains(text(),'Client Id')]/following-sibling::input[@type='text']",
+		"elasticsearchInAction":"//li/a[3][text()='Elasticsearch']",
+		"exportElasticsearchTitle":"//h3[text()='Elasticsearch']",
+		"indexName":"//label[contains(text(),'Index')]/following-sibling::input[@type='text']",
+		"selectConnectVia":"//label[contains(text(),'Connect Via:')]/following-sibling::div/select",
+		"portnumberInElasticsearch":"//label[contains(text(),'Port')]/following-sibling::input[@type='text']",
+		"elasticActionInPipeline":"(//div[contains(@class,'step_list__card')]//h5[1][contains(.,'Elastic')])"
+		
+		
+			
+        }    
+ ],
+"Third party API": [
+		
+	    {
+		"apiServices":"//a[text()='API Services']",
+		"postgresql":"//p[contains(@class,'logo-postgres')]",
+		"mysqlLogo":"//p[contains(@class,'logo-mysql')]",
+		"mssqlLogo":"//p[contains(@class,'logo-mssql')]",
+		"newConnection":"//div[contains(@class,'db-config')]/a[contains(text(),'Connection')]",
+		"enterHostName":"//input[contains(@id,'input_hostname')]",
+		"enterUserName":"//input[contains(@id,'input_username')]",
+		"enterPassword":"//input[contains(@id,'input_password')]",
+		"enterDomainNameFTP":"//input[contains(@id,'input_domain')]",
+		"enterDisplayName":"//input[contains(@id,'input_name')]",
+		"enterDBName":"//input[@id='formly_2_input_database_0']",
+		"connectButton":"//input[contains(@value,'Connect')]",
+		"connectionNameOnScreen":"//span[@class='identity selected expanded']",
+		"backButtonInAPI":"//button[contains(@class,'btn-back')]",
+		"databaseList":"//li[contains(@class,'selected')]/ol/li",
+		"connectionAvailable":"//div[contains(@class,'api-panel dbconn')]//ul/li",
+		"tableListUnderDB":"//ul[contains(@id,'select_tables')]/li",
+		"highlightedQueryArea":"//textarea[contains(@class,'non-empty-state')]",
+		"queryAreaBlank":"//textarea[contains(@id,'query_string')]",
+		"runTestQuery":"//button[@class='btn btn-warning btn-xsm']",
+		"errorOnInvalidQuery":"//span[contains(@class,'msg-error')]",
+		"nextToProceed":"//button[@class='btn btn-sm  btn-warning']",
+		"retriveDataJustOnce":"//a[contains(@class,'active')and text()='Just once']",
+		"submitQuery":"//button[@class='btn btn-sm btn-warning']",
+		"weatherLocationFileId":"//h5//span[contains(.,'weather_location')]",
+		"weatherWholeDataFileId":"//h5//span[contains(.,'weather_weather')]",
+		"weatherHourlyDataFileId":"//h5//span[contains(.,'weather_weather hourly')]",
+		"retrieveDataHourly":"//a[contains(text(),'Hourly')]",
+		"retrieveDataMinutes":"//a[contains(text(),'Every few minutes')]",
+		"retrieveDataDaily":"//a[contains(text(),'Daily')]",
+		"retrieveDataMonthly":"//a[contains(text(),'Monthly')]",
+		"retrieveDataWeekly":"//a[contains(text(),'Weekly')]",
+		"pullDataAfterEvery":"//div[@class='literal']//select",
+		"startDateBox":"//label[text()='Starting:']/following-sibling::input[contains(@class,'flatpickr-input')]",
+		"selectedTodaysStartDate":"//div[contains(@class,'arrowBottom')]//span[@class='flatpickr-day today selected']",
+		"endTimeDropDown":"//label[text()='Ending:']/following-sibling::div[contains(@class,'styled-select')]/select",
+		"combineOrReplaceOnRefreshDropdown":"//div[@class='inputs last refresh']//label[text()='On refresh:']/following-sibling::div/div[@class='styled-select']/select",
+		"uniqueSeqColumn":"//label[text()='Unique sequence column:']/following-sibling::div/div[@class='styled-select']/select",
+		"dateOfCreationOfDS":"//div[text()='Created on']/following-sibling::div[1]",
+		"displayNameIDToCheckConnectionExistence":"//span[@class='identity']/span[not(contains(@class,'hide'))]",
+		"lastUpdatedTimeOfHourlyFile":"//span[contains(.,'weather_weather hourly')]/parent::a/parent::h5/following-sibling::div[@class='ready-wrapper']/ul[contains(@class,'meta')]/li/span",
+		"generatedDataSetNameInputBox":"(//div[contains(@class,'schedule')]//input[@placeholder='Dataset Name'])[1]",
+		"frequencyColumnName":"//div[@class='card-title']//div[text()='frequency']",
+		"hourCountInFrequencyStat":"//ul/li/div[contains(@class,'value') and text()='hourly']/preceding-sibling::div[contains(@class,'count')]",
+		"minuteCountFrequencyStat":"//ul/li/div[contains(@class,'value') and text()='minute']/preceding-sibling::div[contains(@class,'count')]",
+        "dailyCountInFrequencyStat":"//ul/li/div[contains(@class,'value') and text()='daily']/preceding-sibling::div[contains(@class,'count')]",
+		"weeklyCountInFrequencyStat":"//ul/li/div[contains(@class,'value') and text()='weekly']/preceding-sibling::div[contains(@class,'count')]",
+		"refreshScheduleOnAccountlanding":"//div[text()='On refresh action:']/following-sibling::div",
+		
+		"stamperTimestampHourlyReplaceFileID":"//h5//span[contains(.,'stamper_timestamp hourly_replace')]",
+		"stamperTimestampMinuteReplaceFileID":"//h5//span[contains(.,'stamper_timestamp minute_replace')]",
+		"stamperTimestampDailyReplaceFileID":"//h5//span[contains(.,'stamper_timestamp daily_replace')]",
+		"stamperTimestampWeeklyReplaceFileID":"//h5//span[contains(.,'stamper_timestamp weekly_replace')]",
+		"stamperTimestampMonthlyReplaceFileID":"//h5//span[contains(.,'stamper_timestamp monthly_replace')]",
+		
+		"stamperTimestampMinuteCombineFileID":"//h5//span[contains(.,'stamper_timestamp minute_combine')]",
+		"stamperTimestampDailyCombineFileID":"//h5//span[contains(.,'stamper_timestamp daily_combine')]",
+		"stamperTimestampWeeklyCombineFileID":"//h5//span[contains(.,'stamper_timestamp weekly_combine')]",
+	    "stamperTimestampHourlyCombineFileID":"//h5//span[contains(.,'stamper_timestamp hourly_combine')]",
+		"stamperTimestampMonthlyCombineFileID":"//h5//span[contains(.,'stamper_timestamp monthly_combine')]",
+		
+		"folderPathInFTP":"//input[@id='add_ds_form_input_folder_path_0']",
+		"choosePatternInFTP":"//select[@id='add_ds_form_select_name_pattern_1']",
+		"prefixOfFileInFTP":"//input[@id='add_ds_form_input_filename_3']",
+		"startDateInFTP":"//input[@id='add_ds_form_input_date_input_4']",
+		"validateInFTP":"//button[@class='btn btn-sm  btn-warning ng-binding']",
+		"successMsgOnValidate":"//span[contains(@class,'msg-success')]",
+		"nextButtonInThirdParty":"//button[@class='btn btn-sm  btn-warning ng-binding']",
+		"ftpFileNameWhenNoFormatSelected":"//input[contains(@id,'add_ds_form_input_filename')]",
+		"mixPanelLogo":"//p[contains(@class,'logo-mixpanel')]",
+		"apiSecretInputBox":"//input[contains(@id,'input_mixpanel_api')]",
+		"projectTimeZone":"//select[contains(@id,'project_timezone')]",
+		"errorMsgOnMixpanel":"//div[contains(@class,'mixpanel')]//span[contains(@class,'msg-error')]",
+		"connectionNameInMixpanel":"//span[contains(@class,'identity')]",
+		"deleteConnectionTitle":"//h4[text()='Delete Confirmation']",
+		"deleteConnection":"//div[contains(@class,'pane api-box')]//span[@class='remove']",
+		"selectMetricsList":"//header/span[text()='Select Metrics']",
+		"selectCurrentDate":"//div[contains(@class,'open')]//span[contains(@class,'flatpickr-day today')]",
+		"monthActiveDates":"//div[contains(@class,'open')]//span[@class='flatpickr-day'] |//div[contains(@class,'open')]//span[@class='flatpickr-day ']",
+		"prevMonthArrow":"//div[contains(@class,'open')]//span[@class='flatpickr-prev-month']",
+		"endDateInputBox":"//label[text()='Ending:']/following-sibling::input[contains(@class,'flatpickr-input')]",
+		"sourceInfoConfigSection":"//section[@class='properties']//div[contains(text(),'Source:')]/following-sibling::div",
+		"nextDataPullInRefreshSection":"//div[contains(text(),'Next datapull')]/following-sibling::div/span",
+		"rowsInfoInConfigSection":"//div[contains(text(),'Rows:')]/span",
+		"confirmDatePicker":"//div[contains(@class,'flatpickr-confirm')]",
+		"mixpanelMetricList" :"//input[@class='selectable']/following-sibling::span",
+		"mixpanelMetricsCheckBoxList":"//input[@class='selectable']",
+		"mixpanelMetricPullFileID":"//h5//span[contains(text(),'Mixpanel_Data_Pull_For_Metric_Test')]",
+		"eventTypeColName":"//span[@class='slick-column-name'][text()='eventType']",
+		"currURLColName":"//span[@class='slick-column-name'][text()='current_url']",
+		"surveymonkeyLogo":"//p[contains(@class,'service-logo logo-surveymonkey')]",
+		"salesForceLogo":"//p[contains(@class,'service-logo logo-salesforce')]",
+		"salesForceObjectArea":"//ul[contains(@id,'sf_objects')]",
+		"salesForceObjectList":"//ul[contains(@id,'sf_objects')]/li",
+		"salesForceFirstObjectinList":"//ul[contains(@id,'sf_objects')]/li[contains(@class,'selected')]",
+		"salesForceSchemaArea":"//div[contains(@class,'object_schema')]//ul",
+		"salesForceSchemaList":"//div[contains(@class,'object_schema')]//ul/li",
+		"salesforceSchemaCheckBoxList":"//div[contains(@class,'object_schema')]//ul/li/input[contains(@class,'selectable')]",
+		"columnNameIsDeleted":"//span[@class='slick-column-name'][text()='Deleted']",
+		"columnNameIsAccType":"//span[@class='slick-column-name'][text()='Account Type']",
+		"userNameInOtherAPIUrl":"//input[@id='username']",
+		"passwordNameInOtherAPIUrl":"//input[@id='password']",
+		"SignInsurveymonkeyAPIUrl":"//button[@type='submit']",
+		"loginInSalesforceAPIUrl":"//input[@type='submit']",
+		"verifyCodeInputBoxSalesforceAPIUrl":"//input[@id='emc']",
+		"verifyButtonSalesforceAPIUrl":"//input[@id='save']"
+			
+        }    
+ ],
+ "Report":[
+     {
+	 "reportButton":"//label[contains(@class,'report-button')]",
+	 "reportNameInputBox":"//div[contains(@class,'add-to-report')]//input",
+	 "doneInReport":"//div[@class='buttons']/input[@type='submit']",
+	 "createdReportName":"//div[@class='report-name']/p",
+	 "barChartreportOnAccountLanding":"//span[contains(.,'Bar_Chart_Creation_Report')]",
+	 "pieChartreportOnAccountLanding":"//span[contains(.,'Pie_Chart_Creation_Report')]",
+	 "tableReportOnAccountLanding":"//span[contains(.,'Table_With_Report')]",
+	 "metricReportOnAccountLanding":"//span[contains(.,'Metric_Report')]",
+	 "unpublishedIcon":"//div[@class='unpublished']",
+	 "publishMenuButtonAfterPublish":"//div[contains(@class,'btn-xs published')]",
+	 "unpublishButtonInWindow":"//span[text()='Unpublish']",
+	 "publishMenu":"//div[contains(@class,'share-settings')]",
+	 "publishWindowTitle":"//h3[@class='modal-title' and text()='Publish Settings']",
+	 "urlSuffixInputBox":"//span/input[@type='text']",
+	 "privacyDropdown":"//h5[contains(text(),'Privacy')]/following-sibling::label//select",
+	 "publishButtonInWindow":"//input[@class='btn btn-mammoth']",
+	 "msgOnPublish":"//div[contains(@class,'ui-notification')]//div[contains(@class,'message')]",
+	 "arrowToOpenPublishedReport":"//i[contains(@class,'fa fa-share-square')]",
+	 "passwordInputBox":"//input[@type='password']",
+	 "enterPasswordToContinueWindow":"//h3[@class='modal-title' and text()='Enter password to continue']",
+	 "reportDropdown":"//div[contains(@class,'add-to-report')]//select",
+	 "createdReportNameInReportMenu":"//div[contains(@class,'existing')]//div[contains(@class,'selected')]//div[contains(@class,'title')]",
+	 "reportDeleteTitleWindow":"//h3[contains(@class,'modal-title')][text()='Delete report']",
+	 "syncPending":"//div[@class='sync-pending']/span[1]",
+	 "syncNowForReport":"//span[contains(@class,'republish')]",
+	 "dataRefreshDropdown":"//h5[contains(text(),'refresh')]/following-sibling::label//select",
+	 "pageSettingMenuInReport":"//div[contains(@class,'report-settings')]",
+	 "exploreCheckBoxInSetting":"//input[@id='checkbox1']/following-sibling::label[contains(text(),'Explore')]",
+	 "elementCheckBoxInSetting":"//input[@id='checkbox3']/following-sibling::label[contains(text(),'Elements')]",
+	 "gridCheckBoxInSetting":"//input[@id='checkbox2']/following-sibling::label[contains(text(),'Grid')]",
+	 "reportTitleInputBoxInWindow":"//input[contains(@class,'title-input')]",
+	 "reportTitle":"//div[@class='offset']/p",
+	 "countOfColumnValInElementBeforeExplore":"//*[local-name()='g'][@aria-label='Count Military 2']",
+	 "countOfColumnValInElementAfterExplore":"//*[local-name()='g'][@aria-label='Count Military 1']",
+	  "existingCreatedReportView2":"//div[@class='thumbnail']",
+	  "tabNameInputBoxReportDataview":"//div[contains(@class,'new-tab')]//input",
+	  "secondTabForSameReport":"//ul[contains(@class,'views')]/li[2]",
+	  "selectAllOrSomeElement":"//div[contains(@class,'elements panel')]//select",
+	  "elementCountAfterSelection":"//div[contains(@class,'indication')]",
+	  "firstElementGreenTick":"(//div[contains(@class,'indication')]/i[contains(@class,'selected')])[1]"
+ 
+     }
+    ],
+   
+"Quick Export":[
+{
+  "exportFilterDataBottom":"",
+  "exportButton":"//div[contains(@class,'export-btn')]",
+  "hoverMsgOnExport":"//div[contains(@class,'tooltip-inner')]",
+  "exportModalTitle":"//h4[contains(.,'QUICK EXPORT')]",
+  "exportModalDropdown":"//div[contains(@class,'export-dialog')]//select",
+  "countOfNotification":"//div[contains(@class,'dropdown')]/i[contains(@class,'bell')]/following-sibling::span",
+  "notificationUnreadContent":"//li[contains(@class,'notification') and not (contains(@class,'is-read'))]//div[contains(@class,'message')]",
+  "downloadLinkInNotification":"(//a[contains(@href,'s3.amazonaws.com')])[1]",
+  "markAsReadIcon":"//span[@class='mark-read-icon']",
+  "notificationBellInOpenedState":"//div[contains(@class,'notifications dropdown')]/div[not(contains(@role,'menu'))]",
+  "exportModaldbDropdown":"//div[contains(@class,'export-db-2')]//select",
+  "validateDisable":"//div[contains(@class,'Validate') and (contains(@class,'disabled'))]",
+  "exportModalHostName":"//div[contains(@class,'inputs export-db')]//input[@placeholder='Host']",
+  "exportModalPort":"//div[contains(@class,'inputs export-db')]//input[@placeholder='Port']",
+  "exportModalUsername":"//div[contains(@class,'inputs export-db')]//input[@placeholder='Username']",
+  "exportModalPassword":"//div[contains(@class,'inputs export-db')]//input[@placeholder='Password']",
+  "exportModalDBNameToEnter":"//div[contains(@class,'inputs export-db')]//input[@placeholder='Database']",
+  "exportModalTableNameToEnter":"//div[contains(@class,'inputs export-db')]//input[contains(@placeholder,'Table Name')]",
+  "exportModalValidateButton":"//div[contains(text(),'Validate')]",
+  "errorMsgInExportModal":"//div[contains(@class,'error-message')]",
+  "sendViaEmailenterEmailAddress":"//textarea[contains(@placeholder,'Enter Email adress')]",
+  "sendViaEmailSubjectLine":"//input[@placeholder='Subject']",
+  "sendViaEmailMessageBody":"//input[contains(@placeholder,'Message')]",
+  "downloadButtonInExport":"//div[@type='submit']",
+  "indexNameInQuickExport":"//input[@placeholder='Index Name']",
+  "exportModalapplyButton":"//div[@class='ml-btn ml-btn-success']",
+  "datasetNameInQuickExport":"//input[@placeholder='Dataset Name']",
+  "clientIdInQuickExport":"//input[@placeholder='Client ID']",
+  "tableNameInQuickExport":"//input[@placeholder='Table Name']",
+  "sendToUserInExport":"//div[contains(@class,'export-db')]//div[contains(@class,'tyled-select')]/select",
+  
+}
+],
+"Live Link":[
+{
+  "liveLink" : "//div[@class='csv-live-link']/span[contains(@class,'live-link')]",
+  "generateCSVLinkPoppver":"//div[contains(@class,'livelink')]//p[contains(text(),'Generate CSV link')]",
+  "createLink":"//span[@class='btn-create']",
+  "copyLink":"//div[contains(@class,'livelink')]//div[contains(@class,'input-group-prepend')]",
+  "refreshCSVLink":"//span[contains(@class,'col btn-refresh')]",
+  "deleteIconCSVLink":"//span[contains(@class,'col btn-refresh')]/following-sibling::span[contains(@class,'remove')]",
+
+}
+],
+}

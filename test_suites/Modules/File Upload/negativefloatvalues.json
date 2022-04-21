@@ -1,0 +1,27 @@
+{
+  "Driver":"Firefox Driver",
+
+  "Filedetails": [
+		
+		{
+
+        
+        "DS_Name":"Negative values",    
+        "Location_file":"office_main_NegativeFloatValues.csv",
+        "Columns": "10 cols",
+        "Rows": "9 rows",
+        "Last_modified":"a few seconds ago"
+       
+          
+        }
+ 
+],
+  "NegativeFvaluescol":[  {
+          "First_negative_FValue" :"-1.78" ,
+            "Second_negative_FValue" :"-63.678",
+            "Third_negative_FValue" :"55.167"
+                       
+                   
+   }     
+ ]
+}
